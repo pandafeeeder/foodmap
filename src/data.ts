@@ -17,6 +17,7 @@ export interface Item {
   measurement: string;
   name: string;
   notes: string;
+  emoji?: string;
 }
 
 export const data: Item[] = [
@@ -26,6 +27,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🌱",
   },
   {
     name: "Artichoke Hearts",
@@ -33,6 +35,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "💖",
   },
   {
     name: "Aubergine",
@@ -40,6 +43,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🍆",
   },
   {
     name: "Bamboo Shoots",
@@ -47,6 +51,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "½ cup",
     notes: "",
+    emoji: "🎍",
   },
   {
     name: "Bean Sprouts",
@@ -54,6 +59,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🌱",
   },
   {
     name: "Beetroot",
@@ -61,6 +67,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "2 slices",
     notes: "",
+    emoji: "📍",
   },
   {
     name: "Black Fungi Mushroooms",
@@ -68,6 +75,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🍄",
   },
   {
     name: "Bok Choy",
@@ -75,6 +83,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Broccoli",
@@ -82,6 +91,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥦",
   },
   {
     name: "Brussel Sprouts",
@@ -89,6 +99,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "2 to 3",
     notes: "",
+    emoji: "🌱",
   },
   {
     name: "Canned Mushroooms",
@@ -96,6 +107,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🍄",
   },
   {
     name: "Carrot",
@@ -103,6 +115,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥕",
   },
   {
     name: "Celeriac",
@@ -110,6 +123,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Celery",
@@ -117,6 +131,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "¼ cup",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Champignon",
@@ -124,6 +139,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🍄",
   },
   {
     name: "Chinese Cabbage",
@@ -131,6 +147,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Choko",
@@ -138,6 +155,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "½ cup",
     notes: "",
+    emoji: "🫑",
   },
   {
     name: "Choy Sum",
@@ -145,6 +163,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Corn",
@@ -152,6 +171,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Up to ½ cob",
     notes: "",
+    emoji: "🌽",
   },
   {
     name: "Courgette",
@@ -159,6 +179,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "< ½ cup",
     notes: "",
+    emoji: "🥒",
   },
   {
     name: "Cucumber",
@@ -166,6 +187,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥒",
   },
   {
     name: "Edamame",
@@ -173,6 +195,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🫘",
   },
   {
     name: "Eggplant",
@@ -180,6 +203,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🍆",
   },
   {
     name: "Fennel Bulb & Leaves",
@@ -187,6 +211,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "½ cup",
     notes: "",
+    emoji: "👅",
   },
   {
     name: "Gai Lan",
@@ -194,6 +219,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Galangal",
@@ -201,6 +227,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "💫",
   },
   {
     name: "Ginger",
@@ -208,6 +235,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "💫",
   },
   {
     name: "Green Beans",
@@ -215,6 +243,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🫘",
   },
   {
     name: "Green Cabbage",
@@ -222,6 +251,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Green Capsicum",
@@ -229,6 +259,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "½ cup",
     notes: "",
+    emoji: "🫑",
   },
   {
     name: "Green Chilli",
@@ -236,6 +267,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🌶️",
   },
   {
     name: "Japanese  Pumpkin",
@@ -243,6 +275,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🎃",
   },
   {
     name: "Kabocha Squash Pumpkin",
@@ -250,6 +283,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🎃",
   },
   {
     name: "Kale",
@@ -257,6 +291,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Kent Pumpkin",
@@ -264,6 +299,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🎃",
   },
   {
     name: "Leek",
@@ -271,6 +307,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Green part only",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Lettuce (all types)",
@@ -278,6 +315,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Nori Seaweed",
@@ -285,6 +323,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🍣",
   },
   {
     name: "Okra",
@@ -292,6 +331,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Oyster Mushroooms",
@@ -299,6 +339,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🍄",
   },
   {
     name: "Parsnip",
@@ -306,6 +347,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Potato",
@@ -313,6 +355,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥔",
   },
   {
     name: "Radish",
@@ -320,6 +363,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Red Cabbage",
@@ -327,6 +371,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Red Capsicum",
@@ -334,6 +379,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🫑",
   },
   {
     name: "Red Chilli",
@@ -341,13 +387,15 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🌶️",
   },
   {
     name: "Red Sauerkraut",
     category: "Vegetables",
     avoid: false,
-    measurement: "3 tablespoons",
+    measurement: "3 Tbsp",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Shimeji Mushroooms",
@@ -355,6 +403,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🍄",
   },
   {
     name: "Silverbeet",
@@ -362,6 +411,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Snow Peas",
@@ -369,6 +419,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "<= 5 pods",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Spinach",
@@ -376,6 +427,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Spring Onion",
@@ -383,6 +435,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Green only",
     notes: "",
+    emoji: "🧅",
   },
   {
     name: "Squash",
@@ -390,6 +443,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Sweet Potato",
@@ -397,6 +451,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Up to ½ cup",
     notes: "",
+    emoji: "🍠",
   },
   {
     name: "Taro",
@@ -404,6 +459,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Up to ½ cup",
     notes: "",
+    emoji: "🍠",
   },
   {
     name: "Tomatoes",
@@ -411,6 +467,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🍅",
   },
   {
     name: "Turnip",
@@ -418,6 +475,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Water Chestnut",
@@ -425,13 +483,15 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "White Sauerkraut",
     category: "Vegetables",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 Tbsp",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Wombok",
@@ -439,6 +499,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Yam",
@@ -446,6 +507,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🍠",
   },
   {
     name: "Yellow Capsicum",
@@ -453,6 +515,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "🫑",
   },
   {
     name: "Zucchini",
@@ -460,6 +523,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "< ½ cup",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Asparagus",
@@ -467,6 +531,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Bitter Melon",
@@ -474,6 +539,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🍈",
   },
   {
     name: "Brown Onion",
@@ -481,6 +547,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🧅",
   },
   {
     name: "Cauliflower",
@@ -488,6 +555,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🌺",
   },
   {
     name: "Fresh Peas",
@@ -495,6 +563,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Frozen Peas",
@@ -502,6 +571,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Garlic",
@@ -509,6 +579,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🧄",
   },
   {
     name: "Globe Artichoke",
@@ -516,6 +587,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Jerusalem Artichoke",
@@ -523,6 +595,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Karela",
@@ -530,6 +603,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Leek",
@@ -537,6 +611,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🥬",
   },
   {
     name: "Mushrooms",
@@ -544,6 +619,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🍄",
   },
   {
     name: "Red Onion",
@@ -551,6 +627,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🧅",
   },
   {
     name: "Shallots",
@@ -558,6 +635,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "Green only",
     notes: "",
+    emoji: "🧅",
   },
   {
     name: "Spring Onion",
@@ -565,6 +643,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "White part only",
     notes: "",
+    emoji: "🧅",
   },
   {
     name: "White Onion",
@@ -572,13 +651,15 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "🧅",
   },
   {
     name: "Avocado",
     category: "Fruit",
     avoid: false,
-    measurement: "1 to 2 tablespoons",
+    measurement: "1 to 2 tbsp",
     notes: "",
+    emoji: "🥑",
   },
   {
     name: "Banana",
@@ -586,6 +667,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Firm",
     notes: "",
+    emoji: "",
   },
   {
     name: "Blueberries",
@@ -593,6 +675,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1/3 cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cantaloupe",
@@ -600,6 +683,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Rockmelon",
@@ -607,6 +691,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Honeydew",
@@ -614,6 +699,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Carambola",
@@ -621,6 +707,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Dragon Fruit",
@@ -628,6 +715,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Clementine",
@@ -635,6 +723,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Coconut (Fresh)",
@@ -642,6 +731,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Up to 1 cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Coconut (Dessicated)",
@@ -649,6 +739,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "½ cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cumquats",
@@ -656,6 +747,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Dates",
@@ -663,6 +755,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Dried/Fresh (limit 1)",
     notes: "",
+    emoji: "",
   },
   {
     name: "Figs",
@@ -670,6 +763,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Dried/Fresh (limit 1)",
     notes: "",
+    emoji: "",
   },
   {
     name: "Grapefruit",
@@ -677,6 +771,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Up to ½",
     notes: "",
+    emoji: "",
   },
   {
     name: "Red Grapes",
@@ -684,6 +779,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Green Grapes",
@@ -691,6 +787,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Guava",
@@ -698,6 +795,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Jackfruit",
@@ -705,6 +803,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Kiwifruit",
@@ -712,6 +811,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Lemon",
@@ -719,14 +819,23 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
-  { name: "Lime", category: "Fruit", avoid: false, measurement: "", notes: "" },
+  {
+    name: "Lime",
+    category: "Fruit",
+    avoid: false,
+    measurement: "",
+    notes: "",
+    emoji: "",
+  },
   {
     name: "Mandarin",
     category: "Fruit",
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "White Nectarine",
@@ -734,6 +843,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Orange",
@@ -741,6 +851,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Passionfruit",
@@ -748,6 +859,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pineapple",
@@ -755,6 +867,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pomegranate",
@@ -762,6 +875,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "¼ cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Prickly Pear",
@@ -769,6 +883,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Rambutan",
@@ -776,6 +891,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Up to 3",
     notes: "",
+    emoji: "",
   },
   {
     name: "Raspberries",
@@ -783,6 +899,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Rhubarb",
@@ -790,6 +907,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Star Fruit",
@@ -797,6 +915,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Strawberries",
@@ -804,14 +923,23 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
-  { name: "Apple", category: "Fruit", avoid: true, measurement: "", notes: "" },
+  {
+    name: "Apple",
+    category: "Fruit",
+    avoid: true,
+    measurement: "",
+    notes: "",
+    emoji: "",
+  },
   {
     name: "Fresh Apricot",
     category: "Fruit",
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Dried Apricot",
@@ -819,6 +947,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Blackberries",
@@ -826,6 +955,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "Ripe",
     notes: "",
+    emoji: "",
   },
   {
     name: "Boysenberries",
@@ -833,6 +963,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cherries",
@@ -840,6 +971,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Custard Apple",
@@ -847,6 +979,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Feijoa",
@@ -854,23 +987,47 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
-  { name: "Mango", category: "Fruit", avoid: true, measurement: "", notes: "" },
+  {
+    name: "Mango",
+    category: "Fruit",
+    avoid: true,
+    measurement: "",
+    notes: "",
+    emoji: "",
+  },
   {
     name: "Nectarine",
     category: "Fruit",
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
-  { name: "Peach", category: "Fruit", avoid: true, measurement: "", notes: "" },
-  { name: "Pear", category: "Fruit", avoid: true, measurement: "", notes: "" },
+  {
+    name: "Peach",
+    category: "Fruit",
+    avoid: true,
+    measurement: "",
+    notes: "",
+    emoji: "",
+  },
+  {
+    name: "Pear",
+    category: "Fruit",
+    avoid: true,
+    measurement: "",
+    notes: "",
+    emoji: "",
+  },
   {
     name: "Persimmon",
     category: "Fruit",
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Sugar Banana",
@@ -878,6 +1035,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Tamarillo",
@@ -885,6 +1043,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Watermelon",
@@ -892,6 +1051,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Amaranth",
@@ -899,6 +1059,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "¼ cup puffed, not flour",
     notes: "",
+    emoji: "",
   },
   {
     name: "Arrowroot",
@@ -906,6 +1067,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Bread",
@@ -913,6 +1075,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "2 slices",
     notes: "",
+    emoji: "",
   },
   {
     name: "Buckwheat",
@@ -920,6 +1083,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cacao Powder",
@@ -927,13 +1091,15 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Carob",
     category: "Gluten Free Cereals & Grain",
     avoid: false,
-    measurement: "1 heaped teaspoon",
+    measurement: "1 heaped tsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Corn Flour",
@@ -941,6 +1107,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Corn Starch",
@@ -948,6 +1115,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Fruit-Free Cereals",
@@ -955,6 +1123,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "FODMAP Certified Cereals",
@@ -962,6 +1131,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Guar Gum",
@@ -969,6 +1139,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Xanthan Gum",
@@ -976,6 +1147,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Rolled Oats",
@@ -983,6 +1155,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Fruit-Free Muesli",
@@ -990,6 +1163,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Corn Cous-Cous",
@@ -997,6 +1171,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pasta",
@@ -1004,6 +1179,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "No soy or legume flours",
+    emoji: "",
   },
   {
     name: "Polenta",
@@ -1011,6 +1187,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Quinoa",
@@ -1018,6 +1195,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Rice",
@@ -1025,6 +1203,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Rice Noodles",
@@ -1032,6 +1211,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Konjac",
@@ -1039,6 +1219,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Tapioca Flour",
@@ -1046,6 +1227,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Teff",
@@ -1053,6 +1235,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "FODMAP Certified Bread",
@@ -1060,6 +1243,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "2 slices",
     notes: "",
+    emoji: "",
   },
   {
     name: "Gnocchi",
@@ -1067,6 +1251,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "80% Potato",
     notes: "",
+    emoji: "",
   },
   {
     name: "Sourdough (Wheat/Spelt)",
@@ -1074,6 +1259,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "2 slices",
     notes: "",
+    emoji: "",
   },
   {
     name: "Wheat Bread (Regular)",
@@ -1081,6 +1267,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Up to 1 slice",
     notes: "",
+    emoji: "",
   },
   {
     name: "Wheat Pasta",
@@ -1088,6 +1275,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Up to ½ cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Besan Flour",
@@ -1095,6 +1283,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Chickpea Flour",
@@ -1102,6 +1291,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Coconut Flour",
@@ -1109,6 +1299,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Garbanzo Bean Flour",
@@ -1116,6 +1307,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Inulin",
@@ -1123,6 +1315,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Lupin",
@@ -1130,6 +1323,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Lupin Flour",
@@ -1137,6 +1331,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Soy Flour",
@@ -1144,6 +1339,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Muesli/Cereal with Honey",
@@ -1151,6 +1347,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Muesli/Cereal with Dried Fruit",
@@ -1158,6 +1355,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Muesli/Cereal with Fructose",
@@ -1165,6 +1363,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Fruit Juice Concentrate",
@@ -1172,6 +1371,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pasta (Chickpea Flour)",
@@ -1179,6 +1379,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pasta (Legume Flour)",
@@ -1186,6 +1387,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pasta (Soy Flour)",
@@ -1193,6 +1395,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cauliflower Rice",
@@ -1200,6 +1403,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Regular Breads",
@@ -1207,6 +1411,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Regular Biscuits",
@@ -1214,6 +1419,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Regular Cakes",
@@ -1221,6 +1427,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Barley",
@@ -1228,6 +1435,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cous-Cous",
@@ -1235,6 +1443,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Rye",
@@ -1242,6 +1451,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Wheat-based Cereals",
@@ -1249,6 +1459,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Bran-based Cereals",
@@ -1256,6 +1467,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Wheat Pasta",
@@ -1263,6 +1475,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Semolina Pasta",
@@ -1270,6 +1483,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Spelt Pasta",
@@ -1277,6 +1491,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Egg Noodles",
@@ -1284,6 +1499,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Udon Noodles",
@@ -1291,6 +1507,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Ramen",
@@ -1298,6 +1515,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Instant Wheat Noodles",
@@ -1305,6 +1523,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Noodle Soups",
@@ -1312,6 +1531,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cheese (Set/Firm)",
@@ -1319,13 +1539,15 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Greek (Strained) Yoghurt",
     category: "Milk Products",
     avoid: false,
-    measurement: "2 to 3 tablespoons",
+    measurement: "2 to 3 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Lactose-Free Cow's Milk",
@@ -1333,6 +1555,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Lactose-Free Cow's Milk Cream",
@@ -1340,6 +1563,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Lactose-Free Cow's Milk Ice Cream",
@@ -1347,6 +1571,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Lactose-Free Cow's Milk Yoghurt",
@@ -1354,27 +1579,31 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Ricotta",
     category: "Milk Products",
     avoid: false,
-    measurement: "2 tablespoons",
+    measurement: "2 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cream Cheese",
     category: "Milk Products",
     avoid: false,
-    measurement: "2 tablespoons",
+    measurement: "2 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Sour Cream",
     category: "Milk Products",
     avoid: false,
-    measurement: "2 tablespoons",
+    measurement: "2 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cow's Milk",
@@ -1382,6 +1611,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Regular Ice Cream",
@@ -1389,6 +1619,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Regular Yoghurt",
@@ -1396,6 +1627,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Regular Custard",
@@ -1403,6 +1635,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Milk Kefir",
@@ -1410,6 +1643,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Almond Milk",
@@ -1417,6 +1651,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Rice Milk",
@@ -1424,6 +1659,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Quinoa Milk",
@@ -1431,6 +1667,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Hemp Milk",
@@ -1438,6 +1675,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Coconut Milk (Tinned)",
@@ -1445,6 +1683,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "½ cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Coconut Cream",
@@ -1452,6 +1691,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "½ cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pea Protein Milk",
@@ -1459,6 +1699,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Soy Milk",
@@ -1466,6 +1707,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "Must be made from soy protein.",
+    emoji: "",
   },
   {
     name: "Soy Cheese",
@@ -1473,6 +1715,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "No onion or garlic.",
+    emoji: "",
   },
   {
     name: "Oat Milk",
@@ -1480,6 +1723,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "> ½ cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Soy Milk",
@@ -1487,111 +1731,127 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "Must be made from whole soy beans.",
+    emoji: "",
   },
   {
     name: "White Sugar",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Castor Sugar",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Icing Sugar",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Brown Sugar",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Coconut Sugar",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Powdered Sugar",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Glucose",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Glucose Syrup",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Dextrose",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Golden Syrup",
     category: "Sweeteners",
     avoid: false,
-    measurement: "½ tablespoons",
+    measurement: "½ tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Invert Sugar",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Maple Syrup",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Molasses",
     category: "Sweeteners",
     avoid: false,
-    measurement: "½ tablespoons",
+    measurement: "½ tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Rice Malt Syrup",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Stevia",
     category: "Sweeteners",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Agave",
@@ -1599,6 +1859,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Honeydew",
@@ -1606,6 +1867,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Isomalt",
@@ -1613,6 +1875,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Mannitol",
@@ -1620,6 +1883,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Maltilol",
@@ -1627,6 +1891,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Sorbitol",
@@ -1634,6 +1899,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Treacle",
@@ -1641,6 +1907,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Xylitol",
@@ -1648,6 +1915,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Almonds",
@@ -1655,6 +1923,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Brazil Nuts",
@@ -1662,6 +1931,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Hazelnuts",
@@ -1669,6 +1939,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Mixed Nuts",
@@ -1676,6 +1947,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Peanuts",
@@ -1683,6 +1955,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pecans",
@@ -1690,6 +1963,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pine Nuts",
@@ -1697,6 +1971,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Walnuts",
@@ -1704,6 +1979,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Sesame Seeds",
@@ -1711,6 +1987,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Sunflower Seeds",
@@ -1718,6 +1995,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Linseeds",
@@ -1725,6 +2003,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Poppy Seeds",
@@ -1732,6 +2011,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pepitas",
@@ -1739,6 +2019,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "1 handful",
     notes: "",
+    emoji: "",
   },
   {
     name: "Canned Butter Beans",
@@ -1746,6 +2027,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "¼ cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Canned Chick Peas",
@@ -1753,6 +2035,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "¼ cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Canned Lentils",
@@ -1760,6 +2043,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "¼ cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Lima Beans",
@@ -1767,13 +2051,15 @@ export const data: Item[] = [
     avoid: false,
     measurement: "¼ cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Chia Seeds",
     category: "Nuts, Seeds, & Legumes",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Quorn",
@@ -1781,6 +2067,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "¼ cup",
     notes: "No onion or garlic.",
+    emoji: "",
   },
   {
     name: "Tempeh",
@@ -1788,6 +2075,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "¼ cup",
     notes: "No onion or garlic.",
+    emoji: "",
   },
   {
     name: "Tofu (Firm)",
@@ -1795,6 +2083,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cashews",
@@ -1802,6 +2091,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pistachio Nuts",
@@ -1809,6 +2099,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Baked Beans",
@@ -1816,6 +2107,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Black Beans",
@@ -1823,6 +2115,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Borlotti Beans",
@@ -1830,6 +2123,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Broad Beans",
@@ -1837,6 +2131,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cannellini Beans",
@@ -1844,6 +2139,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Fava Beans",
@@ -1851,6 +2147,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Four Bean Mix",
@@ -1858,6 +2155,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Garbanzo Beans",
@@ -1865,6 +2163,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Haricot Beans",
@@ -1872,6 +2171,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Navy Beans",
@@ -1879,6 +2179,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Soy Beans",
@@ -1886,6 +2187,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Tofu (Silken)",
@@ -1893,6 +2195,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Eggs",
@@ -1900,6 +2203,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Chicken (Fresh cuts/Minced/Ground)",
@@ -1907,6 +2211,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Fish (Fresh cuts/Minced/Ground)",
@@ -1914,6 +2219,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Tinned Fish",
@@ -1921,6 +2227,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Plain Grilled Fish",
@@ -1928,6 +2235,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Most Bacon/Ham/Salami",
@@ -1935,6 +2243,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Meat Products",
@@ -1942,6 +2251,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "No onion or garlic.",
+    emoji: "",
   },
   {
     name: "GF Battered/Bread-Crumbed Products",
@@ -1949,6 +2259,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "No onion or garlic.",
+    emoji: "",
   },
   {
     name: "Firm Tofu",
@@ -1956,6 +2267,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "Check flavours and spices in the ingredients.",
+    emoji: "",
   },
   {
     name: "Smoked Trout",
@@ -1963,6 +2275,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Smoked Salmon",
@@ -1970,6 +2283,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Sausages containing Onion/Garlic Powder",
@@ -1977,6 +2291,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Most crumbed or battered meat",
@@ -1984,6 +2299,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Most crumbed or battered chicken",
@@ -1991,6 +2307,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Most crumbed or battered fish",
@@ -1998,6 +2315,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Most Vegetarian Burgers/Falafel",
@@ -2005,6 +2323,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Dark Chocolate",
@@ -2012,6 +2331,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Most Jelly Beans/Lollies",
@@ -2019,6 +2339,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Fruit-Free Muesli Bars",
@@ -2026,6 +2347,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Jelly",
@@ -2033,6 +2355,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pretzels (Regular)",
@@ -2040,6 +2363,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "½ cup",
     notes: "",
+    emoji: "",
   },
   {
     name: "Plain Hot Chips",
@@ -2047,6 +2371,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Plain Salted Potato Chips",
@@ -2054,6 +2379,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Popcorn",
@@ -2061,6 +2387,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Corn Thins",
@@ -2068,6 +2395,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Corn Chips",
@@ -2075,6 +2403,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Rice Cakes",
@@ -2082,6 +2411,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Crackers",
@@ -2089,6 +2419,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cruskits",
@@ -2096,6 +2427,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Sweet & Plain Biscuits/Cookies",
@@ -2103,6 +2435,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "2 pieces",
     notes: "",
+    emoji: "",
   },
   {
     name: "Milk Chocolate",
@@ -2110,6 +2443,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "White Chocolate",
@@ -2117,6 +2451,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "> 2 squares",
     notes: "",
+    emoji: "",
   },
   {
     name: "Cup-a-Soup",
@@ -2124,6 +2459,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "No onion or garlic.",
+    emoji: "",
   },
   {
     name: "Instant Noodles",
@@ -2131,6 +2467,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "No onion or garlic.",
+    emoji: "",
   },
   {
     name: "Chips/Crackers",
@@ -2138,13 +2475,15 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "No onion or garlic.",
+    emoji: "",
   },
   {
     name: "Almond Butter",
     category: "Condiments",
     avoid: false,
-    measurement: "1 tablespoon",
+    measurement: "1 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Eggplant Dip",
@@ -2152,6 +2491,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "No onion or garlic.",
+    emoji: "",
   },
   {
     name: "Fish Sauce",
@@ -2159,6 +2499,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Herbs & Spices",
@@ -2166,6 +2507,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "Check for no onion or garlic in ingredients.",
+    emoji: "",
   },
   {
     name: "Strawberry Jam",
@@ -2173,6 +2515,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Raspberry Jam",
@@ -2180,6 +2523,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Marmalade",
@@ -2187,6 +2531,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Vegemite",
@@ -2194,6 +2539,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Mayonnaise",
@@ -2201,6 +2547,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Mint Jelly",
@@ -2208,6 +2555,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Miso Paste",
@@ -2215,6 +2563,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Mustard",
@@ -2222,6 +2571,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Oyster Sauce",
@@ -2229,6 +2579,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Peanut Butter",
@@ -2236,6 +2587,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Remoulade",
@@ -2243,6 +2595,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Shrimp Paste",
@@ -2250,6 +2603,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Spirulina",
@@ -2257,6 +2611,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Soy Sauce",
@@ -2264,6 +2619,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Sweet and Sour Sauce",
@@ -2271,13 +2627,15 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "No garlic.",
+    emoji: "",
   },
   {
     name: "Tomato & BBQ Sauce",
     category: "Condiments",
     avoid: false,
-    measurement: "2 tablespoons",
+    measurement: "2 tbsp",
     notes: "",
+    emoji: "",
   },
   {
     name: "Worcestershire Sauce",
@@ -2285,6 +2643,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Vanilla Essence",
@@ -2292,6 +2651,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Vinegar",
@@ -2299,6 +2659,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Mirin",
@@ -2306,6 +2667,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Gravy Mix",
@@ -2313,6 +2675,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Marinades",
@@ -2320,6 +2683,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pasta Sauce",
@@ -2327,6 +2691,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Curry Paste",
@@ -2334,6 +2699,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Honey",
@@ -2341,13 +2707,15 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Hummus",
     category: "Condiments",
     avoid: true,
     measurement: "",
-    notes: "> 1 tablespoon",
+    notes: "> 1 tbsp",
+    emoji: "",
   },
   {
     name: "Seasoning Mixes",
@@ -2355,6 +2723,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Relish and Chutney",
@@ -2362,13 +2731,15 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Tahini",
     category: "Condiments",
     avoid: true,
     measurement: "",
-    notes: "> 1 tablespoon",
+    notes: "> 1 tbsp",
+    emoji: "",
   },
   {
     name: "Cranberry Juice",
@@ -2376,6 +2747,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "1 cup",
+    emoji: "",
   },
   {
     name: "Tomato Juice",
@@ -2383,6 +2755,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "1 cup",
+    emoji: "",
   },
   {
     name: "Lime Juice",
@@ -2390,6 +2763,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "1 cup",
+    emoji: "",
   },
   {
     name: "Lemon Juice",
@@ -2397,6 +2771,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "1 cup",
+    emoji: "",
   },
   {
     name: "Spirulina Juice",
@@ -2404,6 +2779,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "1 cup",
+    emoji: "",
   },
   {
     name: "Orange Juice (Fresh)",
@@ -2411,6 +2787,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "½ cup",
+    emoji: "",
   },
   {
     name: "Coffee",
@@ -2418,6 +2795,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Black Tea",
@@ -2425,6 +2803,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Dandelion Tea (Weak)",
@@ -2432,6 +2811,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Peppermint Tea",
@@ -2439,6 +2819,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Green Tea",
@@ -2446,6 +2827,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Rooibos Tea",
@@ -2453,6 +2835,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Beer",
@@ -2460,6 +2843,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Whiskey",
@@ -2467,14 +2851,23 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
-  { name: "Gin", category: "Drinks", avoid: false, measurement: "", notes: "" },
+  {
+    name: "Gin",
+    category: "Drinks",
+    avoid: false,
+    measurement: "",
+    notes: "",
+    emoji: "",
+  },
   {
     name: "Vodka",
     category: "Drinks",
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Champagne",
@@ -2482,6 +2875,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Red Wine",
@@ -2489,6 +2883,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "White Wine",
@@ -2496,6 +2891,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Coconut Water",
@@ -2503,6 +2899,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "> ½ cup",
+    emoji: "",
   },
   {
     name: "Apple Juice",
@@ -2510,6 +2907,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Mango Juice",
@@ -2517,6 +2915,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pear Juice",
@@ -2524,6 +2923,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Kombucha",
@@ -2531,6 +2931,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "> ½ cup",
+    emoji: "",
   },
   {
     name: "Milk Drinks",
@@ -2538,6 +2939,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pomegranate Juice",
@@ -2545,6 +2947,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Chamomile Tea",
@@ -2552,6 +2955,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Dandelion Tea (Strong)",
@@ -2559,6 +2963,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Fennel Tea",
@@ -2566,6 +2971,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Oolong Tea",
@@ -2573,6 +2979,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Chai Tea (Powders)",
@@ -2580,14 +2987,23 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
-  { name: "Rum", category: "Drinks", avoid: true, measurement: "", notes: "" },
+  {
+    name: "Rum",
+    category: "Drinks",
+    avoid: true,
+    measurement: "",
+    notes: "",
+    emoji: "",
+  },
   {
     name: "Dessert Wine",
     category: "Drinks",
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Apple Cider",
@@ -2595,6 +3011,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
   {
     name: "Pear Cider",
@@ -2602,5 +3019,6 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
+    emoji: "",
   },
 ];

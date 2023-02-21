@@ -42,11 +42,15 @@ export const Notes = styled.div<EnjoyOrAvoidProps>`
 `;
 
 export const Result = ({ result }: ResultProps) => {
+  const emoji = result.emoji ? `${result.emoji} ` : "";
   return (
     <Container avoid={result.avoid}>
       <Stack space={Space.XSmall}>
         <Title>
-          <Name>{result.name}</Name>
+          <Name>
+            {emoji}
+            {result.name}
+          </Name>
           {result.measurement !== "" && (
             <Measurement avoid={result.avoid}>
               ⚖️ {result.measurement}
