@@ -1,8 +1,12 @@
-import { Column, Columns, JustifyContent, Stack } from "@neurotech/elements";
 import groupBy from "lodash.groupby";
 import { useState } from "react";
 import { data, Item } from "./data";
+import { Column } from "./Layout/Column";
+import { Columns } from "./Layout/Columns";
+import { Stack } from "./Layout/Stack";
 import { Result } from "./Results/Result";
+
+export const SPACE = "1rem";
 
 export const App = () => {
   const [searchInput, setSearchInput] = useState<string>("");
@@ -46,9 +50,9 @@ export const App = () => {
         {categoryKeys.map((category) => (
           <Stack key={category}>
             <h2>{category}</h2>
-            <Columns justifyContent={JustifyContent.SpaceBetween}>
+            <Columns>
               <Column columnWidth="47%">
-                <Stack flexGrow={1}>
+                <Stack space="0.75rem">
                   <h3>{"✅ Enjoy"}</h3>
                   {categories[category]
                     .filter((c) => !c.avoid)
@@ -58,7 +62,7 @@ export const App = () => {
                 </Stack>
               </Column>
               <Column columnWidth="47%">
-                <Stack flexGrow={1}>
+                <Stack space="0.75rem">
                   <h3>{"❌ Avoid"}</h3>
                   {categories[category]
                     .filter((c) => c.avoid)

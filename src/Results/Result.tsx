@@ -1,8 +1,11 @@
 import styled from "@emotion/styled";
-import { Space, Stack } from "@neurotech/elements";
 import { Item } from "../data";
+import { Space } from "../Layout/Space";
+import { Stack } from "../Layout/Stack";
 
-type EnjoyOrAvoidProps = Pick<Item, "avoid">;
+type EnjoyOrAvoidProps = Pick<Item, "avoid"> & {
+  space?: Space;
+};
 
 const Container = styled.div<EnjoyOrAvoidProps>`
   background-color: ${(props) => (props.avoid ? "#16050a" : "#05160d")};
@@ -13,11 +16,12 @@ const Container = styled.div<EnjoyOrAvoidProps>`
   flex: 1;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem;
+  padding: ${(props) => props.space};
 `;
 
 interface ResultProps {
   result: Item;
+  space?: Space;
 }
 
 export const Title = styled.div`
@@ -28,24 +32,24 @@ export const Title = styled.div`
 `;
 export const Name = styled.div`
   font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1rem;
 `;
 export const Measurement = styled.div<EnjoyOrAvoidProps>`
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   color: ${(props) => (props.avoid ? "#83213e" : "#21834e")};
 `;
 export const Notes = styled.div<EnjoyOrAvoidProps>`
   font-style: italic;
-  font-size: 1.1rem;
+  font-size: 0.85rem;
   color: ${(props) => (props.avoid ? "#83213e" : "#21834e")};
 `;
 
-export const Result = ({ result }: ResultProps) => {
+export const Result = ({ result, space = "0.75rem" }: ResultProps) => {
   const emoji = result.emoji ? `${result.emoji} ` : "";
   return (
-    <Container avoid={result.avoid}>
-      <Stack space={Space.XSmall}>
+    <Container avoid={result.avoid} space={space}>
+      <Stack space="0.25rem">
         <Title>
           <Name>
             {emoji}
