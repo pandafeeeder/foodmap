@@ -45,19 +45,26 @@ export const Title = styled.div<EnjoyOrAvoidProps>`
 `;
 export const Name = styled.div`
   font-weight: 600;
-  font-size: 1rem;
-`;
-export const Measurement = styled.div<EnjoyOrAvoidProps>`
-  font-weight: 500;
-  font-size: 0.85rem;
-  color: ${(props) => (props.avoid ? "#83213e" : "#21834e")};
-  min-width: 50px;
+  font-size: 0.9rem;
 `;
 export const Notes = styled.div<EnjoyOrAvoidProps>`
   font-style: italic;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   color: ${(props) => (props.avoid ? "#83213e" : "#21834e")};
   min-width: 50px;
+  text-align: center;
+`;
+export const Measurement = styled.div<EnjoyOrAvoidProps>`
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: ${(props) => (props.avoid ? "#ff4e82" : "#3aff95")};
+  min-width: 50px;
+  border: 1px solid ${(props) => (props.avoid ? "#6f1a31" : "#2e6e48")};
+  border-radius: 2px;
+  background-color: ${(props) => (props.avoid ? "#410a19" : "#0a4123")};
+  padding: 2px;
+  text-transform: uppercase;
+  text-align: center;
 `;
 
 export const Result = ({ result, space = "0.5rem" }: ResultProps) => {
@@ -78,9 +85,7 @@ export const Result = ({ result, space = "0.5rem" }: ResultProps) => {
         </Name>
         {hasNotes && <Notes avoid={result.avoid}>{result.notes}</Notes>}
         {hasMeasurement && (
-          <Measurement avoid={result.avoid}>
-            ⚖️ {result.measurement}
-          </Measurement>
+          <Measurement avoid={result.avoid}>{result.measurement}</Measurement>
         )}
       </Title>
     </Container>
