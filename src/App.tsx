@@ -3,6 +3,7 @@ import { useState } from "react";
 import { ThemeProvider } from "styled-components";
 import { categoryEmoji, data, Item } from "./data";
 import { GlobalStyles } from "./GlobalStyles";
+import { Input } from "./Input";
 import { Column } from "./Layout/Column";
 import { Columns } from "./Layout/Columns";
 import { Stack } from "./Layout/Stack";
@@ -50,11 +51,11 @@ export const App = () => {
         <Columns>
           <Column columnWidth="100px">{"FODMAP"}</Column>
           <Column columnWidth="90%">
-            <input
-              type={"text"}
-              placeholder={"Search"}
+            <Input
+              fullWidth
               onChange={(event) => handleSearch(event.target.value)}
               onKeyUp={(event) => handleClear(event.key)}
+              placeholder={"Search"}
               value={searchInput}
             />
           </Column>
