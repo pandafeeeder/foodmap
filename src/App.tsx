@@ -1,6 +1,6 @@
 import groupBy from "lodash.groupby";
 import { useState } from "react";
-import { ThemeProvider } from "styled-components";
+import styled, { ThemeProvider } from "styled-components";
 import { categoryEmoji, data, Item } from "./data";
 import { GlobalStyles } from "./GlobalStyles";
 import { Input } from "./Input";
@@ -8,11 +8,22 @@ import { Column } from "./Layout/Column";
 import { Columns } from "./Layout/Columns";
 import { Stack } from "./Layout/Stack";
 import { Result } from "./Results/Result";
-import { Separator } from "./Separator";
 import { CategoryHeading } from "./Text";
 import { themes } from "./theme";
 
 export const SPACE = "1rem";
+
+const StickyHeader = styled.div`
+  background-color: ${(props) => props.theme.background};
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid black;
+  padding: 0.75rem;
+`;
+
+const Results = styled.div`
+  padding: 0.75rem;
+`;
 
 export const App = () => {
   const [darkMode, setDarkMode] = useState<boolean>(true);
@@ -47,28 +58,27 @@ export const App = () => {
   return (
     <ThemeProvider theme={themes[darkMode ? "dark" : "light"]}>
       <GlobalStyles />
-      <Stack space="0.75rem">
-        <Columns>
-          <Column columnWidth="100px">{"FODMAP"}</Column>
-          <Column columnWidth="90%">
-            <Input
-              fullWidth
-              onChange={(event) => handleSearch(event.target.value)}
-              onKeyUp={(event) => handleClear(event.key)}
-              placeholder={"Search"}
-              value={searchInput}
-            />
-          </Column>
-          <Column columnWidth="100px">
-            <input
-              type={"checkbox"}
-              onChange={() => setDarkMode(!darkMode)}
-              checked={darkMode}
-            />
-            {JSON.stringify(darkMode)}
-          </Column>
-        </Columns>
-        <Separator />
+      <StickyHeader>
+        <Input
+          fullWidth
+          key={"search-box"}
+          onChange={(event) => handleSearch(event.target.value)}
+          onKeyUp={(event) => handleClear(event.key)}
+          placeholder={"Search"}
+          value={searchInput}
+        />
+        <input
+          type={"checkbox"}
+          onChange={() => setDarkMode(!darkMode)}
+          checked={darkMode}
+        />
+        {JSON.stringify(darkMode)}
+        <pre>
+          {'prefers-color-scheme "dark": ' +
+            window.matchMedia("(prefers-color-scheme: dark)").matches}
+        </pre>
+      </StickyHeader>
+      <Results>
         <Stack>
           {categoryKeys.map((category) => {
             const enjoyItems = categories[category].filter((c) => !c.avoid);
@@ -109,7 +119,7 @@ export const App = () => {
             );
           })}
         </Stack>
-      </Stack>
+      </Results>
     </ThemeProvider>
   );
 };

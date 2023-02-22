@@ -9,17 +9,18 @@ interface InputProps {
 }
 
 const StyledInput = styled.input<InputProps>`
+  background-color: darkgray;
+  border-radius: 4px;
+  border: 2px solid gray;
   box-sizing: border-box;
+  color: black;
+  font-family: ${(props) => props.theme.fontFamily};
   font-size: 1rem;
   line-height: 1rem;
   padding: 0.5rem;
-  border: 2px solid gray;
-  background-color: darkgray;
-  color: black;
   transition: background-color 0.1s ease 0s, box-shadow 0.1s ease 0s,
     border-color 0.1s ease 0s;
   width: ${(props) => (props.fullWidth ? "100%" : "unset")};
-  border-radius: 2px;
 
   :focus-within,
   :focus {
