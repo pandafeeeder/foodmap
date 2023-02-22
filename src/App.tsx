@@ -1,5 +1,5 @@
 import groupBy from "lodash.groupby";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styled, { ThemeProvider } from "styled-components";
 import { categoryEmoji, data, Item } from "./data";
 import { GlobalStyles } from "./GlobalStyles";
@@ -29,6 +29,15 @@ export const App = () => {
   const [darkMode, setDarkMode] = useState<boolean>(true);
   const [searchInput, setSearchInput] = useState<string>("");
   const [results, setResults] = useState<Item[]>(data);
+
+  useEffect(() => {
+    window
+      .matchMedia("(prefers-color-scheme: dark)")
+      .addEventListener("change", (e) => e.matches && setDarkMode(true));
+    window
+      .matchMedia("(prefers-color-scheme: light)")
+      .addEventListener("change", (e) => e.matches && setDarkMode(false));
+  }, []);
 
   const categories = groupBy(results, "category");
   const categoryKeys = Object.keys(categories).sort();
