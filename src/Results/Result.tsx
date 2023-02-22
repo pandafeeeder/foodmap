@@ -13,17 +13,6 @@ type EnjoyOrAvoidProps = Pick<Item, "avoid"> & {
   space?: Space;
 };
 
-const getJustification = (
-  hasMeasurement?: boolean,
-  hasNotes?: boolean
-): string => {
-  if (hasNotes || hasMeasurement) {
-    return "space-between";
-  }
-
-  return "flex-start";
-};
-
 const getBorderRadius = (hasNotes?: boolean) => {
   if (hasNotes) {
     return "4px 4px 0 0";
@@ -40,8 +29,7 @@ const Container = styled.div<EnjoyOrAvoidProps>`
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: ${(props) =>
-    getJustification(props.hasMeasurement, props.hasNotes)};
+  justify-content: space-between;
   padding: ${(props) => props.space};
   border-bottom: ${(props) => (props.hasNotes ? "none" : "")};
 `;
