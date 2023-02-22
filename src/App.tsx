@@ -1,12 +1,13 @@
 import groupBy from "lodash.groupby";
 import { useState } from "react";
 import { ThemeProvider } from "styled-components";
-import { data, Item } from "./data";
+import { categoryEmoji, data, Item } from "./data";
 import { GlobalStyles } from "./GlobalStyles";
 import { Column } from "./Layout/Column";
 import { Columns } from "./Layout/Columns";
 import { Stack } from "./Layout/Stack";
 import { Result } from "./Results/Result";
+import { Separator } from "./Separator";
 import { CategoryHeading } from "./Text";
 import { themes } from "./theme";
 
@@ -45,7 +46,7 @@ export const App = () => {
   return (
     <ThemeProvider theme={themes[darkMode ? "dark" : "light"]}>
       <GlobalStyles />
-      <Stack>
+      <Stack space="0.75rem">
         <Columns>
           <Column columnWidth="100px">{"FODMAP"}</Column>
           <Column columnWidth="90%">
@@ -66,6 +67,7 @@ export const App = () => {
             {JSON.stringify(darkMode)}
           </Column>
         </Columns>
+        <Separator />
         <Stack>
           {categoryKeys.map((category) => {
             const enjoyItems = categories[category].filter((c) => !c.avoid);
@@ -73,9 +75,12 @@ export const App = () => {
 
             return (
               <Stack key={category} space="0.5rem">
-                <CategoryHeading>{category}</CategoryHeading>
+                <CategoryHeading>
+                  <span>{category}</span>
+                  <span>{categoryEmoji[category]}</span>
+                </CategoryHeading>
                 <Columns>
-                  <Column columnWidth="47%">
+                  <Column columnWidth="47%" space="1rem">
                     <Stack space="0.75rem">
                       <Stack space="0.25rem">
                         {enjoyItems.length > 0 &&

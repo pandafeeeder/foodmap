@@ -16,7 +16,6 @@ const StyledColumn = styled.div<ColumnProps>`
 
   @media (max-width: 576px) {
     width: 100%;
-    padding-bottom: ${(props) => props.space};
   }
 
   @media (min-width: 992px) {
