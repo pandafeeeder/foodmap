@@ -795,7 +795,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍇",
   },
   {
     name: "Jackfruit",
@@ -803,7 +803,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍈",
   },
   {
     name: "Kiwifruit",
@@ -811,7 +811,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🥝",
   },
   {
     name: "Lemon",
@@ -819,7 +819,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍋",
   },
   {
     name: "Lime",
@@ -827,7 +827,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍋",
   },
   {
     name: "Mandarin",
@@ -835,7 +835,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍊",
   },
   {
     name: "White Nectarine",
@@ -843,7 +843,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍑",
   },
   {
     name: "Orange",
@@ -851,7 +851,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍊",
   },
   {
     name: "Passionfruit",
@@ -859,7 +859,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍈",
   },
   {
     name: "Pineapple",
@@ -867,7 +867,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍍",
   },
   {
     name: "Pomegranate",
@@ -875,7 +875,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "¼ cup",
     notes: "",
-    emoji: "",
+    emoji: "🍈",
   },
   {
     name: "Prickly Pear",
@@ -883,7 +883,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍐",
   },
   {
     name: "Rambutan",
@@ -891,7 +891,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "Up to 3",
     notes: "",
-    emoji: "",
+    emoji: "🍒",
   },
   {
     name: "Raspberries",
@@ -899,7 +899,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🫐",
   },
   {
     name: "Rhubarb",
@@ -907,7 +907,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍈",
   },
   {
     name: "Star Fruit",
@@ -915,7 +915,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "⭐",
   },
   {
     name: "Strawberries",
@@ -923,7 +923,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍓",
   },
   {
     name: "Apple",
@@ -931,7 +931,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍎",
   },
   {
     name: "Fresh Apricot",
@@ -939,7 +939,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍊",
   },
   {
     name: "Dried Apricot",
@@ -947,7 +947,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍊",
   },
   {
     name: "Banana",
@@ -955,7 +955,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "Ripe",
     notes: "",
-    emoji: "",
+    emoji: "🍌",
   },
   {
     name: "Blackberries",
@@ -963,7 +963,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🫐",
   },
   {
     name: "Boysenberries",
@@ -971,7 +971,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🫐",
   },
   {
     name: "Cherries",
@@ -979,7 +979,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍒",
   },
   {
     name: "Custard Apple",
@@ -987,7 +987,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍏",
   },
   {
     name: "Feijoa",
@@ -995,7 +995,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍏",
   },
   {
     name: "Mango",
@@ -1003,7 +1003,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🥭",
   },
   {
     name: "Nectarine",
@@ -1011,7 +1011,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍑",
   },
   {
     name: "Peach",
@@ -1019,7 +1019,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍑",
   },
   {
     name: "Pear",
@@ -1027,7 +1027,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍐",
   },
   {
     name: "Persimmon",
@@ -1035,7 +1035,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍅",
   },
   {
     name: "Sugar Banana",
@@ -1043,7 +1043,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍌",
   },
   {
     name: "Tamarillo",
@@ -1051,7 +1051,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍅",
   },
   {
     name: "Watermelon",
@@ -1059,7 +1059,7 @@ export const data: Item[] = [
     avoid: true,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍉",
   },
   {
     name: "Amaranth",
@@ -1067,7 +1067,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "¼ cup puffed, not flour",
     notes: "",
-    emoji: "",
+    emoji: "🌷",
   },
   {
     name: "Arrowroot",
@@ -1075,7 +1075,7 @@ export const data: Item[] = [
     avoid: false,
     measurement: "",
     notes: "",
-    emoji: "",
+    emoji: "🍠",
   },
   {
     name: "Bread",
@@ -1186,7 +1186,7 @@ export const data: Item[] = [
     category: "Gluten Free Cereals & Grain",
     avoid: false,
     measurement: "",
-    notes: "No soy or legume flours",
+    notes: "No soy/legume flours.",
     emoji: "",
   },
   {
@@ -2514,7 +2514,7 @@ export const data: Item[] = [
     category: "Condiments",
     avoid: false,
     measurement: "",
-    notes: "Check for no onion or garlic in ingredients.",
+    notes: "No onion or garlic.",
     emoji: "",
   },
   {
@@ -2721,8 +2721,8 @@ export const data: Item[] = [
     name: "Hummus",
     category: "Condiments",
     avoid: true,
-    measurement: "",
-    notes: "> 1 tablespoon",
+    measurement: "> 1 tablespoon",
+    notes: "",
     emoji: "",
   },
   {
@@ -2745,56 +2745,56 @@ export const data: Item[] = [
     name: "Tahini",
     category: "Condiments",
     avoid: true,
-    measurement: "",
-    notes: "> 1 tablespoon",
+    measurement: "> 1 tablespoon",
+    notes: "",
     emoji: "",
   },
   {
     name: "Cranberry Juice",
     category: "Drinks",
     avoid: false,
-    measurement: "",
-    notes: "1 cup",
+    measurement: "1 cup",
+    notes: "",
     emoji: "",
   },
   {
     name: "Tomato Juice",
     category: "Drinks",
     avoid: false,
-    measurement: "",
-    notes: "1 cup",
+    measurement: "1 cup",
+    notes: "",
     emoji: "",
   },
   {
     name: "Lime Juice",
     category: "Drinks",
     avoid: false,
-    measurement: "",
-    notes: "1 cup",
+    measurement: "1 cup",
+    notes: "",
     emoji: "",
   },
   {
     name: "Lemon Juice",
     category: "Drinks",
     avoid: false,
-    measurement: "",
-    notes: "1 cup",
+    measurement: "1 cup",
+    notes: "",
     emoji: "",
   },
   {
     name: "Spirulina Juice",
     category: "Drinks",
     avoid: false,
-    measurement: "",
-    notes: "1 cup",
+    measurement: "1 cup",
+    notes: "",
     emoji: "",
   },
   {
     name: "Orange Juice (Fresh)",
     category: "Drinks",
     avoid: false,
-    measurement: "",
-    notes: "½ cup",
+    measurement: "½ cup",
+    notes: "",
     emoji: "",
   },
   {
@@ -2905,8 +2905,8 @@ export const data: Item[] = [
     name: "Coconut Water",
     category: "Drinks",
     avoid: true,
-    measurement: "",
-    notes: "> ½ cup",
+    measurement: "> ½ cup",
+    notes: "",
     emoji: "",
   },
   {
@@ -2937,8 +2937,8 @@ export const data: Item[] = [
     name: "Kombucha",
     category: "Drinks",
     avoid: true,
-    measurement: "",
-    notes: "> ½ cup",
+    measurement: "> ½ cup",
+    notes: "",
     emoji: "",
   },
   {
