@@ -1,6 +1,6 @@
-import styled from "@emotion/styled";
 import { Children } from "react";
 import flattenChildren from "react-keyed-flatten-children";
+import styled from "styled-components";
 import { Space } from "./Space";
 
 interface StackProps {

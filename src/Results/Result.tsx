@@ -1,10 +1,27 @@
-import styled from "@emotion/styled";
+import styled from "styled-components";
 import { Item } from "../data";
 import { Space } from "../Layout/Space";
-import { Stack } from "../Layout/Stack";
+
+interface ResultProps {
+  result: Item;
+  space?: Space;
+}
 
 type EnjoyOrAvoidProps = Pick<Item, "avoid"> & {
+  hasMeasurement?: boolean;
+  hasNotes?: boolean;
   space?: Space;
+};
+
+const getJustification = (
+  hasMeasurement?: boolean,
+  hasNotes?: boolean
+): string => {
+  if (hasNotes || hasMeasurement) {
+    return "space-between";
+  }
+
+  return "flex-start";
 };
 
 const Container = styled.div<EnjoyOrAvoidProps>`
@@ -15,16 +32,12 @@ const Container = styled.div<EnjoyOrAvoidProps>`
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: center;
+  justify-content: ${(props) =>
+    getJustification(props.hasMeasurement, props.hasNotes)};
   padding: ${(props) => props.space};
 `;
 
-interface ResultProps {
-  result: Item;
-  space?: Space;
-}
-
-export const Title = styled.div`
+export const Title = styled.div<EnjoyOrAvoidProps>`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -38,33 +51,38 @@ export const Measurement = styled.div<EnjoyOrAvoidProps>`
   font-weight: 500;
   font-size: 0.85rem;
   color: ${(props) => (props.avoid ? "#83213e" : "#21834e")};
+  min-width: 50px;
 `;
 export const Notes = styled.div<EnjoyOrAvoidProps>`
   font-style: italic;
   font-size: 0.85rem;
   color: ${(props) => (props.avoid ? "#83213e" : "#21834e")};
+  min-width: 50px;
 `;
 
-export const Result = ({ result, space = "0.75rem" }: ResultProps) => {
+export const Result = ({ result, space = "0.5rem" }: ResultProps) => {
+  const hasNotes = result.notes !== "";
+  const hasMeasurement = result.measurement !== "";
   const emoji = result.emoji ? `${result.emoji} ` : "";
+
   return (
     <Container avoid={result.avoid} space={space}>
-      <Stack space="0.25rem">
-        <Title>
-          <Name>
-            {emoji}
-            {result.name}
-          </Name>
-          {result.measurement !== "" && (
-            <Measurement avoid={result.avoid}>
-              ⚖️ {result.measurement}
-            </Measurement>
-          )}
-        </Title>
-        {result.notes !== "" && (
-          <Notes avoid={result.avoid}>⚠️ {result.notes}</Notes>
+      <Title
+        avoid={result.avoid}
+        hasMeasurement={hasMeasurement}
+        hasNotes={hasNotes}
+      >
+        <Name>
+          {emoji}
+          {result.name}
+        </Name>
+        {hasNotes && <Notes avoid={result.avoid}>{result.notes}</Notes>}
+        {hasMeasurement && (
+          <Measurement avoid={result.avoid}>
+            ⚖️ {result.measurement}
+          </Measurement>
         )}
-      </Stack>
+      </Title>
     </Container>
   );
 };
