@@ -34,7 +34,9 @@ const Results = styled.div`
 `;
 
 export const App = () => {
-  const [darkMode, setDarkMode] = useState<boolean>(true);
+  const [darkMode, setDarkMode] = useState<boolean>(
+    window.matchMedia("(prefers-color-scheme: dark)").matches
+  );
   const [searchInput, setSearchInput] = useState<string>("");
   const [results, setResults] = useState<Item[]>(data);
 

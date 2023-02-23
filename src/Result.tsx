@@ -24,7 +24,7 @@ const getBorderRadius = (hasNotes?: boolean) => {
 const Container = styled.div<EnjoyOrAvoidProps>`
   background-color: ${(props) => props.theme[props.enjoyAvoid].background};
   border: 1px solid ${(props) => props.theme[props.enjoyAvoid].border};
-  color: ${(props) => props.theme[props.enjoyAvoid].border};
+  color: ${(props) => props.theme[props.enjoyAvoid].color};
   border-radius: ${(props) => getBorderRadius(props.hasNotes)};
   display: flex;
   flex: 1;
