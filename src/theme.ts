@@ -9,6 +9,7 @@ const light: DefaultTheme = {
   background: "#e8e8e8",
   color: "black",
   fontFamily,
+  separator: "rgba(0, 0, 0, 0.2)",
   header: {
     background: "white",
     border: "#a8a8a8",
@@ -62,6 +63,7 @@ const dark: DefaultTheme = {
   background: "#0e0f17",
   color: "#e8e8e8",
   fontFamily,
+  separator: "rgba(255, 255, 255, 0.2)",
   header: {
     background: "#23212f",
     border: "#625d72",

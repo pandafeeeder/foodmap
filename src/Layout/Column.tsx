@@ -10,7 +10,6 @@ interface ColumnProps {
 const StyledColumn = styled.div<ColumnProps>`
   display: flex;
   flex-basis: auto;
-  flex-grow: 1;
   min-width: 0;
   padding-left: ${(props) => props.space};
 
@@ -18,7 +17,7 @@ const StyledColumn = styled.div<ColumnProps>`
     width: 100%;
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 577px) {
     width: ${(props) => props.columnWidth};
   }
 `;

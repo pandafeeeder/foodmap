@@ -58,6 +58,7 @@ declare module "styled-components" {
     category: Category;
     color: string;
     fontFamily: string;
+    separator: string;
     header: Header;
     search: Search;
     enjoy: Enjoy;

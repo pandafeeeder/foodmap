@@ -5,16 +5,17 @@ import { Space } from "./Space";
 
 interface StackProps {
   children?: React.ReactNode;
+  padLastChild?: boolean;
   space?: Space;
 }
 
-const StyledStack = styled.div`
+const StyledStack = styled.div<StackProps>`
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 
   > :last-child {
-    padding-bottom: 0;
+    padding-bottom: ${(props) => (props.padLastChild ? props.space : 0)};
   }
 `;
 
@@ -22,11 +23,15 @@ const StackChild = styled.div<StackProps>`
   padding-bottom: ${(props) => props.space};
 `;
 
-export const Stack = ({ children, space = "1rem" }: StackProps) => {
+export const Stack = ({
+  children,
+  padLastChild,
+  space = "1rem",
+}: StackProps) => {
   const stackItems = flattenChildren(children);
 
   return (
-    <StyledStack>
+    <StyledStack padLastChild={padLastChild}>
       {Children.map(stackItems, (child) => (
         <StackChild space={space}>{child}</StackChild>
       ))}

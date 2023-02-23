@@ -8,6 +8,7 @@ import { Column } from "./Layout/Column";
 import { Columns } from "./Layout/Columns";
 import { Stack } from "./Layout/Stack";
 import { Result } from "./Result";
+import { Separator } from "./Separator";
 import { CategoryHeading } from "./Text";
 import { themes } from "./theme";
 
@@ -19,6 +20,12 @@ const StickyHeader = styled.div`
   top: 0;
   border-bottom: 2px solid ${(props) => props.theme.header.border};
   padding: 0.75rem;
+`;
+
+const Logo = styled.div`
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
 `;
 
 const CategoryContainer = styled.div`
@@ -33,12 +40,148 @@ const Results = styled.div`
   padding: 0.75rem;
 `;
 
+const getRandomFoodEmoji = () => {
+  const foodEmoji = [
+    "🍇",
+    "🍈",
+    "🍉",
+    "🍊",
+    "🍋",
+    "🍌",
+    "🍍",
+    "🥭",
+    "🍎",
+    "🍏",
+    "🍐",
+    "🍑",
+    "🍒",
+    "🍓",
+    "🫐",
+    "🥝",
+    "🍅",
+    "🫒",
+    "🥥",
+    "🥑",
+    "🍆",
+    "🥔",
+    "🥕",
+    "🌽",
+    "🌶️",
+    "🫑",
+    "🥒",
+    "🥬",
+    "🥦",
+    "🫛",
+    "🧄",
+    "🧅",
+    "🫚",
+    "🍄",
+    "🥜",
+    "🫘",
+    "🌰",
+    "🍞",
+    "🥐",
+    "🥖",
+    "🫓",
+    "🥨",
+    "🥯",
+    "🥞",
+    "🧇",
+    "🧀",
+    "🍖",
+    "🍗",
+    "🥩",
+    "🥓",
+    "🍔",
+    "🍟",
+    "🍕",
+    "🌭",
+    "🥪",
+    "🌮",
+    "🌯",
+    "🫔",
+    "🥙",
+    "🧆",
+    "🥚",
+    "🍳",
+    "🥘",
+    "🍲",
+    "🫕",
+    "🥣",
+    "🥗",
+    "🍿",
+    "🧈",
+    "🧂",
+    "🥫",
+    "🍱",
+    "🍘",
+    "🍙",
+    "🍚",
+    "🍛",
+    "🍜",
+    "🍝",
+    "🍠",
+    "🍢",
+    "🍣",
+    "🍤",
+    "🍥",
+    "🥮",
+    "🍡",
+    "🥟",
+    "🥠",
+    "🥡",
+    "🦪",
+    "🍦",
+    "🍧",
+    "🍨",
+    "🍩",
+    "🍪",
+    "🎂",
+    "🍰",
+    "🧁",
+    "🥧",
+    "🍫",
+    "🍬",
+    "🍭",
+    "🍮",
+    "🍯",
+    "🍼",
+    "🥛",
+    "☕",
+    "🫖",
+    "🍵",
+    "🍶",
+    "🍾",
+    "🍷",
+    "🍸",
+    "🍹",
+    "🍺",
+    "🍻",
+    "🥂",
+    "🥃",
+    "🫗",
+    "🥤",
+    "🧋",
+    "🧃",
+    "🧉",
+    "🧊",
+    "🥢",
+    "🍽️",
+    "🍴",
+    "🥄",
+    "🫙",
+  ];
+
+  return foodEmoji[Math.floor(Math.random() * foodEmoji.length)];
+};
+
 export const App = () => {
   const [darkMode, setDarkMode] = useState<boolean>(
     window.matchMedia("(prefers-color-scheme: dark)").matches
   );
   const [searchInput, setSearchInput] = useState<string>("");
   const [results, setResults] = useState<Item[]>(data);
+  const foodEmoji = getRandomFoodEmoji();
 
   useEffect(() => {
     window
@@ -78,14 +221,21 @@ export const App = () => {
     <ThemeProvider theme={themes[darkMode ? "dark" : "light"]}>
       <GlobalStyles />
       <StickyHeader>
-        <Input
-          fullWidth
-          key={"search-box"}
-          onChange={(event) => handleSearch(event.target.value)}
-          onKeyUp={(event) => handleClear(event.key)}
-          placeholder={"Search"}
-          value={searchInput}
-        />
+        <Stack space="0.5rem">
+          <Logo
+            onClick={() => scrollTo({ top: 0, left: 0, behavior: "smooth" })}
+          >
+            {`${foodEmoji} FoodMap 🗺️`}
+          </Logo>
+          <Input
+            fullWidth
+            key={"search-box"}
+            onChange={(event) => handleSearch(event.target.value)}
+            onKeyUp={(event) => handleClear(event.key)}
+            placeholder={"Search"}
+            value={searchInput}
+          />
+        </Stack>
       </StickyHeader>
       <Results>
         <Stack>
@@ -100,10 +250,11 @@ export const App = () => {
                     <span>{category}</span>
                     <span>{categoryEmoji[category]}</span>
                   </CategoryHeading>
+                  <Separator />
                   <Columns>
                     <Column columnWidth="47%" space="1rem">
                       <Stack space="0.75rem">
-                        <Stack space="0.25rem">
+                        <Stack padLastChild space="0.25rem">
                           {enjoyItems.length > 0 &&
                             enjoyItems.map((c, i) => (
                               <Result
@@ -112,16 +263,17 @@ export const App = () => {
                               />
                             ))}
                         </Stack>
-
-                        <Stack space="0.25rem">
-                          {avoidItems.length > 0 &&
-                            avoidItems.map((c, i) => (
-                              <Result
-                                key={`${c.name}-${c.avoid}-${i}`}
-                                result={c}
-                              />
-                            ))}
-                        </Stack>
+                      </Stack>
+                    </Column>
+                    <Column columnWidth="47%" space="1rem">
+                      <Stack space="0.25rem">
+                        {avoidItems.length > 0 &&
+                          avoidItems.map((c, i) => (
+                            <Result
+                              key={`${c.name}-${c.avoid}-${i}`}
+                              result={c}
+                            />
+                          ))}
                       </Stack>
                     </Column>
                   </Columns>
