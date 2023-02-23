@@ -34,17 +34,17 @@ const Container = styled.div<EnjoyOrAvoidProps>`
   border-bottom: ${(props) => (props.hasNotes ? "none" : "")};
 `;
 
-export const Title = styled.div<EnjoyOrAvoidProps>`
+const Title = styled.div<EnjoyOrAvoidProps>`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 `;
-export const Name = styled.div`
+const Name = styled.div`
   font-weight: 600;
   font-size: 0.9rem;
 `;
-export const Measurement = styled.div<EnjoyOrAvoidProps>`
+const Measurement = styled.div<EnjoyOrAvoidProps>`
   font-weight: 500;
   font-size: 0.8rem;
   color: ${(props) => props.theme[props.enjoyAvoid].measurement.color};
@@ -57,7 +57,7 @@ export const Measurement = styled.div<EnjoyOrAvoidProps>`
   text-transform: uppercase;
   text-align: center;
 `;
-export const Notes = styled.div<EnjoyOrAvoidProps>`
+const Notes = styled.div<EnjoyOrAvoidProps>`
   font-style: italic;
   font-size: 0.8rem;
   color: ${(props) => props.theme.notes.color};
@@ -70,6 +70,9 @@ export const Notes = styled.div<EnjoyOrAvoidProps>`
   line-height: 1.3rem;
   display: flex;
   justify-content: space-between;
+`;
+const Warning = styled.span`
+  font-style: normal;
 `;
 
 export const Result = ({ result, space = "0.5rem" }: ResultProps) => {
@@ -95,9 +98,9 @@ export const Result = ({ result, space = "0.5rem" }: ResultProps) => {
       </Container>
       {hasNotes && (
         <Notes enjoyAvoid={enjoyAvoid}>
-          <span>⚠️</span>
+          <Warning>⚠️</Warning>
           <span>{result.notes}</span>
-          <span>⚠️</span>
+          <Warning>⚠️</Warning>
         </Notes>
       )}
     </>

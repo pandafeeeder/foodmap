@@ -6,10 +6,11 @@ interface CategoryHeadingProps {
 }
 
 const Heading = styled.div`
+  display: flex;
   font-size: 1.2rem;
   font-weight: 600;
-  display: flex;
   justify-content: space-between;
+  line-height: 1.2rem;
 `;
 
 export const CategoryHeading = ({ children }: CategoryHeadingProps) => (

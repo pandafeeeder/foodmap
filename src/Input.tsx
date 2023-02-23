@@ -9,24 +9,34 @@ interface InputProps {
 }
 
 const StyledInput = styled.input<InputProps>`
-  background-color: darkgray;
+  background-color: ${(props) => props.theme.search.background};
   border-radius: 4px;
-  border: 2px solid gray;
+  border: 2px solid ${(props) => props.theme.search.border};
   box-sizing: border-box;
-  color: black;
+  color: ${(props) => props.theme.search.color};
   font-family: ${(props) => props.theme.fontFamily};
   font-size: 1rem;
+  font-weight: 500;
   line-height: 1rem;
   padding: 0.5rem;
   transition: background-color 0.1s ease 0s, box-shadow 0.1s ease 0s,
     border-color 0.1s ease 0s;
   width: ${(props) => (props.fullWidth ? "100%" : "unset")};
 
+  ::placeholder {
+    color: ${(props) => props.theme.search.placeholder};
+  }
+
   :focus-within,
   :focus {
-    background-color: white;
-    border-color: #855cc7;
+    background-color: ${(props) => props.theme.search.focus.background};
+    border-color: ${(props) => props.theme.search.focus.border};
+    color: ${(props) => props.theme.search.focus.color};
     outline: none;
+
+    ::placeholder {
+      color: ${(props) => props.theme.search.focus.placeholder};
+    }
   }
 `;
 

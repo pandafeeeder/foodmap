@@ -1,5 +1,25 @@
 import "styled-components";
 
+interface Header {
+  background: string;
+  border: string;
+}
+
+interface Search {
+  background: string;
+  border: string;
+  color: string;
+  placeholder: string;
+  focus: SearchFocus;
+}
+
+interface SearchFocus {
+  background: string;
+  border: string;
+  color: string;
+  placeholder: string;
+}
+
 interface Category {
   border: string;
   background: string;
@@ -38,6 +58,8 @@ declare module "styled-components" {
     category: Category;
     color: string;
     fontFamily: string;
+    header: Header;
+    search: Search;
     enjoy: Enjoy;
     avoid: Avoid;
     notes: Notes;

@@ -14,10 +14,10 @@ import { themes } from "./theme";
 export const SPACE = "1rem";
 
 const StickyHeader = styled.div`
-  background-color: ${(props) => props.theme.background};
+  background-color: ${(props) => props.theme.header.background};
   position: sticky;
   top: 0;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid ${(props) => props.theme.header.border};
   padding: 0.75rem;
 `;
 
@@ -86,16 +86,6 @@ export const App = () => {
           placeholder={"Search"}
           value={searchInput}
         />
-        <input
-          type={"checkbox"}
-          onChange={() => setDarkMode(!darkMode)}
-          checked={darkMode}
-        />
-        {JSON.stringify(darkMode)}
-        <pre>
-          {'prefers-color-scheme "dark": ' +
-            window.matchMedia("(prefers-color-scheme: dark)").matches}
-        </pre>
       </StickyHeader>
       <Results>
         <Stack>

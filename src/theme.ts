@@ -9,10 +9,27 @@ const light: DefaultTheme = {
   background: "#e8e8e8",
   color: "black",
   fontFamily,
+  header: {
+    background: "white",
+    border: "#a8a8a8",
+  },
+  search: {
+    background: "#e8e8e8",
+    border: "#a8a8a8",
+    color: "#a8a8a8",
+    placeholder: "#a8a8a8",
+
+    focus: {
+      background: "#ffdbef",
+      border: "#ff008b",
+      color: "#b30062",
+      placeholder: "#b30062",
+    },
+  },
   category: {
     background: "white",
     border: "#a8a8a8",
-    color: "#a8a8a8",
+    color: "#717171",
   },
   enjoy: {
     background: "#b7f7d5",
@@ -45,6 +62,23 @@ const dark: DefaultTheme = {
   background: "#0e0f17",
   color: "#e8e8e8",
   fontFamily,
+  header: {
+    background: "#23212f",
+    border: "#625d72",
+  },
+  search: {
+    background: "#0f0e17",
+    border: "#635c72",
+    color: "#c5bcd4",
+    placeholder: "#c5bcd4",
+
+    focus: {
+      background: "#b8c8fa",
+      border: "#5077f3",
+      color: "#0a1c4c",
+      placeholder: "#0a1c4c",
+    },
+  },
   category: {
     background: "#23212f",
     border: "#625d72",
