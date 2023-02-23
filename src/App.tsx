@@ -7,6 +7,7 @@ import { Input } from "./Input";
 import { Column } from "./Layout/Column";
 import { Columns } from "./Layout/Columns";
 import { Stack } from "./Layout/Stack";
+import { Logo } from "./Logo";
 import { Result } from "./Result";
 import { Separator } from "./Separator";
 import { CategoryHeading } from "./Text";
@@ -22,12 +23,6 @@ const StickyHeader = styled.div`
   padding: 0.75rem;
 `;
 
-const Logo = styled.div`
-  text-align: center;
-  font-weight: 600;
-  font-size: 1.1rem;
-`;
-
 const CategoryContainer = styled.div`
   padding: 0.75rem;
   background-color: ${(props) => props.theme.category.background};
@@ -40,148 +35,12 @@ const Results = styled.div`
   padding: 0.75rem;
 `;
 
-const getRandomFoodEmoji = () => {
-  const foodEmoji = [
-    "🍇",
-    "🍈",
-    "🍉",
-    "🍊",
-    "🍋",
-    "🍌",
-    "🍍",
-    "🥭",
-    "🍎",
-    "🍏",
-    "🍐",
-    "🍑",
-    "🍒",
-    "🍓",
-    "🫐",
-    "🥝",
-    "🍅",
-    "🫒",
-    "🥥",
-    "🥑",
-    "🍆",
-    "🥔",
-    "🥕",
-    "🌽",
-    "🌶️",
-    "🫑",
-    "🥒",
-    "🥬",
-    "🥦",
-    "🫛",
-    "🧄",
-    "🧅",
-    "🫚",
-    "🍄",
-    "🥜",
-    "🫘",
-    "🌰",
-    "🍞",
-    "🥐",
-    "🥖",
-    "🫓",
-    "🥨",
-    "🥯",
-    "🥞",
-    "🧇",
-    "🧀",
-    "🍖",
-    "🍗",
-    "🥩",
-    "🥓",
-    "🍔",
-    "🍟",
-    "🍕",
-    "🌭",
-    "🥪",
-    "🌮",
-    "🌯",
-    "🫔",
-    "🥙",
-    "🧆",
-    "🥚",
-    "🍳",
-    "🥘",
-    "🍲",
-    "🫕",
-    "🥣",
-    "🥗",
-    "🍿",
-    "🧈",
-    "🧂",
-    "🥫",
-    "🍱",
-    "🍘",
-    "🍙",
-    "🍚",
-    "🍛",
-    "🍜",
-    "🍝",
-    "🍠",
-    "🍢",
-    "🍣",
-    "🍤",
-    "🍥",
-    "🥮",
-    "🍡",
-    "🥟",
-    "🥠",
-    "🥡",
-    "🦪",
-    "🍦",
-    "🍧",
-    "🍨",
-    "🍩",
-    "🍪",
-    "🎂",
-    "🍰",
-    "🧁",
-    "🥧",
-    "🍫",
-    "🍬",
-    "🍭",
-    "🍮",
-    "🍯",
-    "🍼",
-    "🥛",
-    "☕",
-    "🫖",
-    "🍵",
-    "🍶",
-    "🍾",
-    "🍷",
-    "🍸",
-    "🍹",
-    "🍺",
-    "🍻",
-    "🥂",
-    "🥃",
-    "🫗",
-    "🥤",
-    "🧋",
-    "🧃",
-    "🧉",
-    "🧊",
-    "🥢",
-    "🍽️",
-    "🍴",
-    "🥄",
-    "🫙",
-  ];
-
-  return foodEmoji[Math.floor(Math.random() * foodEmoji.length)];
-};
-
 export const App = () => {
   const [darkMode, setDarkMode] = useState<boolean>(
     window.matchMedia("(prefers-color-scheme: dark)").matches
   );
   const [searchInput, setSearchInput] = useState<string>("");
   const [results, setResults] = useState<Item[]>(data);
-  const foodEmoji = getRandomFoodEmoji();
 
   useEffect(() => {
     window
@@ -224,9 +83,7 @@ export const App = () => {
         <Stack space="0.5rem">
           <Logo
             onClick={() => scrollTo({ top: 0, left: 0, behavior: "smooth" })}
-          >
-            {`${foodEmoji} FoodMap 🗺️`}
-          </Logo>
+          />
           <Input
             fullWidth
             key={"search-box"}
