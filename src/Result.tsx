@@ -1,14 +1,14 @@
 import styled from "styled-components";
-import { Item } from "../data";
-import { Space } from "../Layout/Space";
+import { Item } from "./data";
+import { Space } from "./Layout/Space";
 
 interface ResultProps {
   result: Item;
   space?: Space;
 }
 
-type EnjoyOrAvoidProps = Pick<Item, "avoid"> & {
-  hasMeasurement?: boolean;
+type EnjoyOrAvoidProps = {
+  enjoyAvoid: "enjoy" | "avoid";
   hasNotes?: boolean;
   space?: Space;
 };
@@ -22,9 +22,9 @@ const getBorderRadius = (hasNotes?: boolean) => {
 };
 
 const Container = styled.div<EnjoyOrAvoidProps>`
-  background-color: ${(props) => (props.avoid ? "#16050a" : "#05160d")};
-  border: 1px solid ${(props) => (props.avoid ? "#af2c52" : "#2caf68")};
-  color: ${(props) => (props.avoid ? "#ff4e82" : "#3aff95")};
+  background-color: ${(props) => props.theme[props.enjoyAvoid].background};
+  border: 1px solid ${(props) => props.theme[props.enjoyAvoid].border};
+  color: ${(props) => props.theme[props.enjoyAvoid].border};
   border-radius: ${(props) => getBorderRadius(props.hasNotes)};
   display: flex;
   flex: 1;
@@ -47,10 +47,12 @@ export const Name = styled.div`
 export const Measurement = styled.div<EnjoyOrAvoidProps>`
   font-weight: 500;
   font-size: 0.8rem;
-  color: ${(props) => (props.avoid ? "#ff4e82" : "#3aff95")};
-  border: 1px solid ${(props) => (props.avoid ? "#6f1a31" : "#2e6e48")};
+  color: ${(props) => props.theme[props.enjoyAvoid].measurement.color};
+  border: 1px solid
+    ${(props) => props.theme[props.enjoyAvoid].measurement.border};
   border-radius: 2px;
-  background-color: ${(props) => (props.avoid ? "#410a19" : "#0a4123")};
+  background-color: ${(props) =>
+    props.theme[props.enjoyAvoid].measurement.background};
   padding: 2px 4px;
   text-transform: uppercase;
   text-align: center;
@@ -58,9 +60,9 @@ export const Measurement = styled.div<EnjoyOrAvoidProps>`
 export const Notes = styled.div<EnjoyOrAvoidProps>`
   font-style: italic;
   font-size: 0.8rem;
-  color: #ffd34b;
-  background-color: #161206;
-  border: 1px solid #b19536;
+  color: ${(props) => props.theme.notes.color};
+  background-color: ${(props) => props.theme.notes.background};
+  border: 1px solid ${(props) => props.theme.notes.border};
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   text-align: center;
@@ -74,26 +76,25 @@ export const Result = ({ result, space = "0.5rem" }: ResultProps) => {
   const hasNotes = result.notes !== "";
   const hasMeasurement = result.measurement !== "";
   const emoji = result.emoji ? `${result.emoji} ` : "";
+  const enjoyAvoid = result.avoid ? "avoid" : "enjoy";
 
   return (
     <>
-      <Container avoid={result.avoid} hasNotes={hasNotes} space={space}>
-        <Title
-          avoid={result.avoid}
-          hasMeasurement={hasMeasurement}
-          hasNotes={hasNotes}
-        >
+      <Container enjoyAvoid={enjoyAvoid} hasNotes={hasNotes} space={space}>
+        <Title enjoyAvoid={enjoyAvoid} hasNotes={hasNotes}>
           <Name>
             {emoji}
             {result.name}
           </Name>
           {hasMeasurement && (
-            <Measurement avoid={result.avoid}>{result.measurement}</Measurement>
+            <Measurement enjoyAvoid={enjoyAvoid}>
+              {result.measurement}
+            </Measurement>
           )}
         </Title>
       </Container>
       {hasNotes && (
-        <Notes avoid={result.avoid}>
+        <Notes enjoyAvoid={enjoyAvoid}>
           <span>⚠️</span>
           <span>{result.notes}</span>
           <span>⚠️</span>

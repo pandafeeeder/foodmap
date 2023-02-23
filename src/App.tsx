@@ -7,7 +7,7 @@ import { Input } from "./Input";
 import { Column } from "./Layout/Column";
 import { Columns } from "./Layout/Columns";
 import { Stack } from "./Layout/Stack";
-import { Result } from "./Results/Result";
+import { Result } from "./Result";
 import { CategoryHeading } from "./Text";
 import { themes } from "./theme";
 
@@ -19,6 +19,14 @@ const StickyHeader = styled.div`
   top: 0;
   border-bottom: 2px solid black;
   padding: 0.75rem;
+`;
+
+const CategoryContainer = styled.div`
+  padding: 0.75rem;
+  background-color: ${(props) => props.theme.category.background};
+  border: 2px solid ${(props) => props.theme.category.border};
+  border-radius: 4px;
+  color: ${(props) => props.theme.category.color};
 `;
 
 const Results = styled.div`
@@ -94,37 +102,39 @@ export const App = () => {
             const avoidItems = categories[category].filter((c) => c.avoid);
 
             return (
-              <Stack key={category} space="0.5rem">
-                <CategoryHeading>
-                  <span>{category}</span>
-                  <span>{categoryEmoji[category]}</span>
-                </CategoryHeading>
-                <Columns>
-                  <Column columnWidth="47%" space="1rem">
-                    <Stack space="0.75rem">
-                      <Stack space="0.25rem">
-                        {enjoyItems.length > 0 &&
-                          enjoyItems.map((c, i) => (
-                            <Result
-                              key={`${c.name}-${c.avoid}-${i}`}
-                              result={c}
-                            />
-                          ))}
-                      </Stack>
+              <CategoryContainer>
+                <Stack key={category} space="0.5rem">
+                  <CategoryHeading>
+                    <span>{category}</span>
+                    <span>{categoryEmoji[category]}</span>
+                  </CategoryHeading>
+                  <Columns>
+                    <Column columnWidth="47%" space="1rem">
+                      <Stack space="0.75rem">
+                        <Stack space="0.25rem">
+                          {enjoyItems.length > 0 &&
+                            enjoyItems.map((c, i) => (
+                              <Result
+                                key={`${c.name}-${c.avoid}-${i}`}
+                                result={c}
+                              />
+                            ))}
+                        </Stack>
 
-                      <Stack space="0.25rem">
-                        {avoidItems.length > 0 &&
-                          avoidItems.map((c, i) => (
-                            <Result
-                              key={`${c.name}-${c.avoid}-${i}`}
-                              result={c}
-                            />
-                          ))}
+                        <Stack space="0.25rem">
+                          {avoidItems.length > 0 &&
+                            avoidItems.map((c, i) => (
+                              <Result
+                                key={`${c.name}-${c.avoid}-${i}`}
+                                result={c}
+                              />
+                            ))}
+                        </Stack>
                       </Stack>
-                    </Stack>
-                  </Column>
-                </Columns>
-              </Stack>
+                    </Column>
+                  </Columns>
+                </Stack>
+              </CategoryContainer>
             );
           })}
         </Stack>
