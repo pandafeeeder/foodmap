@@ -1,44 +1,4 @@
-type Category =
-  | "Condiments"
-  | "Drinks"
-  | "Fruit"
-  | "Gluten Free Cereals & Grain"
-  | "Meat & Alternatives"
-  | "Milk Alternatives"
-  | "Milk Products"
-  | "Nuts, Seeds, & Legumes"
-  | "Snack Foods & Confectionery"
-  | "Sweeteners"
-  | "Vegetables";
-
-type CategoryEmoji = {
-  [key: string]: string;
-};
-
-export const categoryEmoji: CategoryEmoji = {
-  Condiments: "🧂",
-  Drinks: "🍹",
-  Fruit: "🍎",
-  "Gluten Free Cereals & Grain": "🥖",
-  "Meat & Alternatives": "🥩",
-  "Milk Alternatives": "🧋",
-  "Milk Products": "🥛",
-  "Nuts, Seeds, & Legumes": "🥜",
-  "Snack Foods & Confectionery": "🍭",
-  Sweeteners: "🍯",
-  Vegetables: "🥕",
-};
-
-export interface Item {
-  avoid: boolean;
-  category: Category;
-  measurement: string;
-  name: string;
-  notes: string;
-  emoji?: string;
-}
-
-export const data: Item[] = [
+[
   {
     name: "Alfalfa",
     category: "Vegetables",
@@ -3047,4 +3007,4 @@ export const data: Item[] = [
     notes: "",
     emoji: "🍺",
   },
-];
+]
