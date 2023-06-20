@@ -149,7 +149,7 @@
     "avoid": false,
     "measurement": "½ cup",
     "notes": "",
-    "emoji": "🫑",
+    "emoji": "🍐",
     "zh": "佛手瓜"
   },
   {
@@ -194,7 +194,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "毛豆"
   },
   {
@@ -248,7 +248,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "青豆"
   },
   {
@@ -266,7 +266,7 @@
     "avoid": false,
     "measurement": "½ cup",
     "notes": "",
-    "emoji": "🫑",
+    "emoji": "🌶️",
     "zh": "青椒"
   },
   {
@@ -401,7 +401,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "",
-    "emoji": "🫑",
+    "emoji": "🌶️",
     "zh": "红椒"
   },
   {
@@ -554,7 +554,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "",
-    "emoji": "🫑",
+    "emoji": "🌶️",
     "zh": "黄椒"
   },
   {
@@ -1406,7 +1406,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "鹰嘴豆粉"
   },
   {
@@ -2216,7 +2216,7 @@
     "avoid": false,
     "measurement": "¼ cup",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "黄豆罐头"
   },
   {
@@ -2225,7 +2225,7 @@
     "avoid": false,
     "measurement": "¼ cup",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "鹰嘴豆罐头"
   },
   {
@@ -2234,7 +2234,7 @@
     "avoid": false,
     "measurement": "¼ cup",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "小扁豆罐头"
   },
   {
@@ -2243,7 +2243,7 @@
     "avoid": false,
     "measurement": "¼ cup",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "利马豆"
   },
   {
@@ -2306,7 +2306,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "焗豆"
   },
   {
@@ -2315,7 +2315,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "黑豆"
   },
   {
@@ -2324,7 +2324,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "花豆"
   },
   {
@@ -2333,7 +2333,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "蚕豆"
   },
   {
@@ -2342,7 +2342,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "白芸豆"
   },
   {
@@ -2351,7 +2351,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "蚕豆"
   },
   {
@@ -2360,7 +2360,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "四种豆混合"
   },
   {
@@ -2369,7 +2369,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "鹰嘴豆"
   },
   {
@@ -2378,7 +2378,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "白芸豆"
   },
   {
@@ -2387,7 +2387,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "海军豆"
   },
   {
@@ -2396,7 +2396,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫘",
+    "emoji": "🌱",
     "zh": "大豆"
   },
   {
