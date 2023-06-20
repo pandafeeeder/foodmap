@@ -2828,7 +2828,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "",
-    "emoji": "🫙",
+    "emoji": "🌶️",
     "zh": "芥末"
   },
   {
@@ -2882,7 +2882,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "",
-    "emoji": "🫙",
+    "emoji": "🍶",
     "zh": "酱油"
   },
   {
@@ -2891,7 +2891,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "No garlic.",
-    "emoji": "🫙",
+    "emoji": "🍶",
     "zh": "甜酸酱"
   },
   {
@@ -2909,7 +2909,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "",
-    "emoji": "🫙",
+    "emoji": "🍶",
     "zh": "伍斯特辣酱油"
   },
   {
@@ -2927,7 +2927,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "",
-    "emoji": "🫙",
+    "emoji": "🍶",
     "zh": "醋"
   },
   {
@@ -2936,7 +2936,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "",
-    "emoji": "🫙",
+    "emoji": "🍶",
     "zh": "味淋"
   },
   {
@@ -2945,7 +2945,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🪦",
+    "emoji": "🥣",
     "zh": "肉汁粉"
   },
   {
@@ -2954,7 +2954,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫙",
+    "emoji": "🍶",
     "zh": "腌料"
   },
   {
@@ -2990,7 +2990,7 @@
     "avoid": true,
     "measurement": "1 tablespoon (20 grams)",
     "notes": "Contains excess fructose",
-    "emoji": "🫙",
+    "emoji": "🍶",
     "zh": "味淋"
   },
   {
@@ -2999,7 +2999,7 @@
     "avoid": true,
     "measurement": "1 teaspoon (5 grams)",
     "notes": "May contain wheat, onion, or garlic",
-    "emoji": "🪦",
+    "emoji": "🥣",
     "zh": "肉汁粉"
   },
   {
@@ -3008,7 +3008,7 @@
     "avoid": true,
     "measurement": "2 tablespoons (40 grams)",
     "notes": "May contain honey, onion, garlic, or high fructose corn syrup",
-    "emoji": "🫙",
+    "emoji": "🥣",
     "zh": "腌料"
   },
   {
@@ -3026,7 +3026,7 @@
     "avoid": true,
     "measurement": "> 1 tablespoon",
     "notes": "",
-    "emoji": "🫙",
+    "emoji": "🥙",
     "zh": "鹰嘴豆泥"
   },
   {
@@ -3044,7 +3044,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫙",
+    "emoji": "🍶",
     "zh": "调味品和印度果酱"
   },
   {
@@ -3053,7 +3053,7 @@
     "avoid": true,
     "measurement": "> 1 tablespoon",
     "notes": "",
-    "emoji": "🫙",
+    "emoji": "🥣",
     "zh": "芝麻酱"
   },
   {
