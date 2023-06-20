@@ -3134,7 +3134,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "",
-    "emoji": "🫖",
+    "emoji": "🍵",
     "zh": "蒲公英茶（淡）"
   },
   {
@@ -3143,7 +3143,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "",
-    "emoji": "🫖",
+    "emoji": "🍵",
     "zh": "薄荷茶"
   },
   {
@@ -3161,7 +3161,7 @@
     "avoid": false,
     "measurement": "",
     "notes": "",
-    "emoji": "🫖",
+    "emoji": "🍵",
     "zh": "红茶"
   },
   { "name": "Beer", "category": "Drinks", "avoid": false, "measurement": "", "notes": "", "emoji": "🍺", "zh": "啤酒" },
@@ -3297,7 +3297,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫖",
+    "emoji": "🍵",
     "zh": "蒲公英茶（浓）"
   },
   {
@@ -3306,7 +3306,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫖",
+    "emoji": "🍵",
     "zh": "茴香茶"
   },
   {
@@ -3324,7 +3324,7 @@
     "avoid": true,
     "measurement": "",
     "notes": "",
-    "emoji": "🫖",
+    "emoji": "🍵",
     "zh": "印度奶茶（粉末）"
   },
   { "name": "Rum", "category": "Drinks", "avoid": true, "measurement": "", "notes": "", "emoji": "🥃", "zh": "朗姆酒" },
