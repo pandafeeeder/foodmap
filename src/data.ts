@@ -568,10 +568,10 @@
         "category": "Vegetables",
         "categoryzh": "蔬菜",
         "avoid": false,
-        "measurement": "3 tablespoons",
+        "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "红酸菜",
+        "zh": "莴笋",
         "measurementzh": "3 汤匙"
     },
     {
@@ -583,7 +583,7 @@
         "measurement": "3 tablespoons",
         "notes": "",
         "emoji": "🥬",
-        "zh": "莴笋",
+        "zh": "红酸菜",
         "measurementzh": "3 汤匙"
     },
     {
