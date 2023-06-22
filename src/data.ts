@@ -1,3440 +1,4585 @@
 [
     {
+        "url": "",
         "name": "Alfalfa",
         "category": "Vegetables",
-        "avoid": false,
+        "categoryzh": "蔬菜",
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "苜蓿"
+        "zh": "苜蓿",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Artichoke Hearts",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "洋蓟心"
+        "zh": "洋蓟心",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Aubergine",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "茄子"
+        "zh": "茄子",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Bamboo Shoots",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "½ cup",
         "notes": "",
         "emoji": "🥬",
-        "zh": "竹笋"
+        "zh": "竹笋",
+        "measurementzh": "½ 杯"
     },
     {
+        "url": "",
         "name": "Bean Sprouts",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "豆芽"
+        "zh": "豆芽",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Beetroot",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "2 slices",
         "notes": "",
         "emoji": "🥬",
-        "zh": "甜菜根"
+        "zh": "甜菜根",
+        "measurementzh": "2 片"
     },
     {
+        "url": "",
         "name": "Black Fungi Mushroooms",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "黑木耳"
+        "zh": "黑木耳",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Bok Choy",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "小白菜"
+        "zh": "小白菜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Broccoli (heads)",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "西兰花(头部)"
+        "zh": "西兰花(头部)",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Broccoli (stalks)",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "<45g",
         "notes": "",
         "emoji": "🥬",
-        "zh": "西兰花(根茎)"
+        "zh": "西兰花(根茎)",
+        "measurementzh": "<45g"
     },
     {
+        "url": "",
         "name": "Brussel Sprouts",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "2 to 3",
         "notes": "",
         "emoji": "🥬",
-        "zh": "球芽甘蓝"
+        "zh": "球芽甘蓝",
+        "measurementzh": "2 到 3"
     },
     {
+        "url": "",
         "name": "Canned Mushroooms",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "罐头蘑菇"
+        "zh": "罐头蘑菇",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Carrot",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "胡萝卜"
+        "zh": "胡萝卜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Celeriac",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "芹菜根"
+        "zh": "芹菜根",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Celery",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "¼ cup",
         "notes": "",
         "emoji": "🥬",
-        "zh": "芹菜"
+        "zh": "芹菜",
+        "measurementzh": "¼ 杯"
     },
     {
+        "url": "",
         "name": "Champignon",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "蘑菇"
+        "zh": "蘑菇",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Chinese Cabbage",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "大白菜"
+        "zh": "大白菜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Choko",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "½ cup",
         "notes": "",
         "emoji": "🥬",
-        "zh": "佛手瓜"
+        "zh": "佛手瓜",
+        "measurementzh": "½ 杯"
     },
     {
+        "url": "",
         "name": "Choy Sum",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "菜心"
+        "zh": "菜心",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Corn",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "Up to ½ a cob",
         "notes": "",
         "emoji": "🥬",
-        "zh": "玉米"
+        "zh": "玉米",
+        "measurementzh": "最多半根玉米棒"
     },
     {
+        "url": "",
         "name": "Courgette",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "< ½ cup",
         "notes": "",
         "emoji": "🥬",
-        "zh": "西葫芦"
+        "zh": "西葫芦",
+        "measurementzh": "< ½ 杯"
     },
     {
+        "url": "",
         "name": "Cucumber",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "黄瓜"
+        "zh": "黄瓜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Edamame",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "毛豆"
+        "zh": "毛豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Eggplant",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "茄子"
+        "zh": "茄子",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Fennel Bulb & Leaves",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "½ cup",
         "notes": "",
         "emoji": "🥬",
-        "zh": "茴香球和叶"
+        "zh": "茴香球和叶",
+        "measurementzh": "½ 杯"
     },
     {
+        "url": "",
         "name": "Gai Lan",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "芥兰"
+        "zh": "芥兰",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Galangal",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "高良姜"
+        "zh": "高良姜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Ginger",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "姜"
+        "zh": "姜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Green Beans",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "青豆"
+        "zh": "青豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Green Cabbage",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "绿卷心菜"
+        "zh": "绿卷心菜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Green Capsicum",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "½ cup",
         "notes": "",
         "emoji": "🥬",
-        "zh": "青椒"
+        "zh": "青椒",
+        "measurementzh": "½ 杯"
     },
     {
+        "url": "",
         "name": "Green Chilli",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "青辣椒"
+        "zh": "青辣椒",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Japanese Pumpkin",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "日本南瓜"
+        "zh": "日本南瓜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Kabocha Squash Pumpkin",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "南瓜"
+        "zh": "南瓜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Kale",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "羽衣甘蓝"
+        "zh": "羽衣甘蓝",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Kent Pumpkin",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "肯特南瓜"
+        "zh": "肯特南瓜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Leek",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "Green part only",
         "notes": "",
         "emoji": "🥬",
-        "zh": "韭菜"
+        "zh": "韭菜",
+        "measurementzh": "只有绿色部分"
     },
     {
+        "url": "",
         "name": "Lettuce (all types)",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "生菜（各种）"
+        "zh": "生菜（各种）",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Nori Seaweed",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "紫菜"
+        "zh": "紫菜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Okra",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "秋葵"
+        "zh": "秋葵",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Oyster Mushroooms",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "平菇"
+        "zh": "平菇",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Parsnip",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "欧洲萝卜"
+        "zh": "欧洲萝卜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Potato",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "土豆"
+        "zh": "土豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Radish",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "萝卜"
+        "zh": "萝卜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Red Cabbage",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "红卷心菜"
+        "zh": "红卷心菜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Red Capsicum",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "红椒"
+        "zh": "红椒",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Red Chilli",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "红辣椒"
+        "zh": "红辣椒",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Asparagus Lettuce",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "3 tablespoons",
         "notes": "",
         "emoji": "🥬",
-        "zh": "红酸菜"
+        "zh": "红酸菜",
+        "measurementzh": "3 汤匙"
     },
     {
+        "url": "",
         "name": "Red Sauerkraut",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "3 tablespoons",
         "notes": "",
         "emoji": "🥬",
-        "zh": "莴笋"
+        "zh": "莴笋",
+        "measurementzh": "3 汤匙"
     },
     {
+        "url": "",
         "name": "Shimeji Mushroooms",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "白玉菇"
+        "zh": "白玉菇",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Silverbeet",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "甜菜叶"
+        "zh": "甜菜叶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Snow Peas",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "<= 5 pods",
         "notes": "",
         "emoji": "🥬",
-        "zh": "荷兰豆"
+        "zh": "荷兰豆",
+        "measurementzh": "<= 5 荚"
     },
     {
+        "url": "",
         "name": "Spinach",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "菠菜"
+        "zh": "菠菜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Spring Onion",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "Green only",
         "notes": "",
         "emoji": "🥬",
-        "zh": "葱"
+        "zh": "葱",
+        "measurementzh": "只有绿色部分"
     },
     {
+        "url": "",
         "name": "Squash",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "南瓜"
+        "zh": "南瓜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Sweet Potato",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "Up to ½ cup",
         "notes": "",
         "emoji": "🥬",
-        "zh": "红薯"
+        "zh": "红薯",
+        "measurementzh": "最多半杯"
     },
     {
+        "url": "",
         "name": "Taro",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "Up to ½ cup",
         "notes": "",
         "emoji": "🥬",
-        "zh": "芋头"
+        "zh": "芋头",
+        "measurementzh": "最多半杯"
     },
     {
+        "url": "",
         "name": "Tomatoes",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "西红柿"
+        "zh": "西红柿",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Turnip",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "芜菁"
+        "zh": "芜菁",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Water Chestnut",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "荸荠"
+        "zh": "荸荠",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "White Sauerkraut",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🥬",
-        "zh": "白酸菜"
+        "zh": "白酸菜",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Wombok",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "大白菜"
+        "zh": "大白菜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Yam",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "山药"
+        "zh": "山药",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Yellow Capsicum",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "黄椒"
+        "zh": "黄椒",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Zucchini",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": false,
         "measurement": "< ½ cup",
         "notes": "",
         "emoji": "🥬",
-        "zh": "西葫芦"
+        "zh": "西葫芦",
+        "measurementzh": "< ½ 杯"
     },
     {
+        "url": "",
         "name": "Asparagus",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "芦笋"
+        "zh": "芦笋",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Bitter Melon",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "苦瓜"
+        "zh": "苦瓜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Brown Onion",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "棕色洋葱"
+        "zh": "棕色洋葱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Cauliflower",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "花椰菜"
+        "zh": "花椰菜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Fresh Peas",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "新鲜豌豆"
+        "zh": "新鲜豌豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Frozen Peas",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "冷冻豌豆"
+        "zh": "冷冻豌豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Garlic",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "大蒜"
+        "zh": "大蒜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Globe Artichoke",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "洋蓟"
+        "zh": "洋蓟",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Jerusalem Artichoke",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "洋姜"
+        "zh": "洋姜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Karela",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "苦瓜"
+        "zh": "苦瓜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Leek",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "韭葱"
+        "zh": "韭葱",
+        "measurementzh": "只有绿色部分"
     },
     {
+        "url": "",
         "name": "Mushrooms",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "蘑菇"
+        "zh": "蘑菇",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Red Onion",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "红洋葱"
+        "zh": "红洋葱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Shallots",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "Green only",
         "notes": "",
         "emoji": "🥬",
-        "zh": "青葱"
+        "zh": "青葱",
+        "measurementzh": "只有绿色部分"
     },
     {
+        "url": "",
         "name": "Spring Onion",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "White part only",
         "notes": "",
         "emoji": "🥬",
-        "zh": "葱"
+        "zh": "葱",
+        "measurementzh": "只有绿色部分"
     },
     {
+        "url": "",
         "name": "White Onion",
         "category": "Vegetables",
+        "categoryzh": "蔬菜",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥬",
-        "zh": "白洋葱"
+        "zh": "白洋葱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Avocado",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "1 to 2 tablespoons",
         "notes": "",
         "emoji": "🍉",
-        "zh": "牛油果"
+        "zh": "牛油果",
+        "measurementzh": "1 到 2 汤匙"
     },
     {
+        "url": "",
         "name": "Banana",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "Firm",
         "notes": "",
         "emoji": "🍉",
-        "zh": "香蕉"
+        "zh": "香蕉",
+        "measurementzh": "坚实的"
     },
     {
+        "url": "",
         "name": "Blueberries",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "1/3 cup",
         "notes": "",
         "emoji": "🍉",
-        "zh": "蓝莓"
+        "zh": "蓝莓",
+        "measurementzh": "1/3 杯"
     },
     {
+        "url": "",
         "name": "Cantaloupe",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "哈密瓜"
+        "zh": "哈密瓜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Rockmelon",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "哈密瓜"
+        "zh": "哈密瓜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Honeydew",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "蜜瓜"
+        "zh": "蜜瓜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Carambola",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "杨桃"
+        "zh": "杨桃",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Dragon Fruit",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "火龙果"
+        "zh": "火龙果",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Clementine",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "金桔"
+        "zh": "金桔",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Coconut (Fresh)",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "Up to 1 cup",
         "notes": "",
         "emoji": "🍉",
-        "zh": "椰子"
+        "zh": "椰子",
+        "measurementzh": "最多 1 杯"
     },
     {
+        "url": "",
         "name": "Coconut (Dessicated)",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "½ cup",
         "notes": "",
         "emoji": "🍉",
-        "zh": "椰丝"
+        "zh": "椰丝",
+        "measurementzh": "½ 杯"
     },
     {
+        "url": "",
         "name": "Cumquats",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "金橘"
+        "zh": "金橘",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Dates",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "Dried/Fresh (limit 1)",
         "notes": "",
         "emoji": "🍉",
-        "zh": "枣"
+        "zh": "枣",
+        "measurementzh": "干/鲜（限量 1）"
     },
     {
+        "url": "",
         "name": "Figs",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "Dried/Fresh (limit 1)",
         "notes": "",
         "emoji": "🍉",
-        "zh": "无花果"
+        "zh": "无花果",
+        "measurementzh": "干/鲜（限量 1）"
     },
     {
+        "url": "",
         "name": "Grapefruit",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "Up to ½",
         "notes": "",
         "emoji": "🍉",
-        "zh": "柚子"
+        "zh": "柚子",
+        "measurementzh": "最多半个"
     },
     {
+        "url": "",
         "name": "Red Grapes",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "红葡萄"
+        "zh": "红葡萄",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Green Grapes",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "青葡萄"
+        "zh": "青葡萄",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Guava",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "番石榴"
+        "zh": "番石榴",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Jackfruit",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "菠萝蜜"
+        "zh": "菠萝蜜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Kiwifruit",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "猕猴桃"
+        "zh": "猕猴桃",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Lemon",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "柠檬"
+        "zh": "柠檬",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Lime",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "酸橙"
+        "zh": "酸橙",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Mandarin",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "橘子"
+        "zh": "橘子",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "White Nectarine",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "白油桃"
+        "zh": "白油桃",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Orange",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "橙子"
+        "zh": "橙子",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Passionfruit",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "百香果"
+        "zh": "百香果",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Pineapple",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "菠萝"
+        "zh": "菠萝",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Pomegranate",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "¼ cup",
         "notes": "",
         "emoji": "🍉",
-        "zh": "石榴"
+        "zh": "石榴",
+        "measurementzh": "¼ 杯"
     },
     {
+        "url": "",
         "name": "Prickly Pear",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "仙人掌果"
+        "zh": "仙人掌果",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Rambutan",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "Up to 3",
         "notes": "",
         "emoji": "🍉",
-        "zh": "红毛丹"
+        "zh": "红毛丹",
+        "measurementzh": "最多 3 个"
     },
     {
+        "url": "",
         "name": "Raspberries",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "树莓"
+        "zh": "树莓",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Rhubarb",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "大黄"
+        "zh": "大黄",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Star Fruit",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "杨桃"
+        "zh": "杨桃",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Strawberries",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "草莓"
+        "zh": "草莓",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Apple",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "苹果"
+        "zh": "苹果",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Fresh Apricot",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "杏子"
+        "zh": "杏子",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Dried Apricot",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "干杏"
+        "zh": "干杏",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Banana",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "Ripe",
         "notes": "",
         "emoji": "🍉",
-        "zh": "香蕉"
+        "zh": "香蕉",
+        "measurementzh": "坚实的"
     },
     {
+        "url": "",
         "name": "Blackberries",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "黑莓"
+        "zh": "黑莓",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Boysenberries",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "杨莓"
+        "zh": "杨莓",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Cherries",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "樱桃"
+        "zh": "樱桃",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Custard Apple",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "番荔枝"
+        "zh": "番荔枝",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Feijoa",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "番石榴"
+        "zh": "番石榴",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Mango",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "芒果"
+        "zh": "芒果",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Nectarine",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "油桃"
+        "zh": "油桃",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Peach",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "桃子"
+        "zh": "桃子",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Pear",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "梨子"
+        "zh": "梨子",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Persimmon",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "柿子"
+        "zh": "柿子",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Sugar Banana",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "甜香蕉"
+        "zh": "甜香蕉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Tamarillo",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "树番茄"
+        "zh": "树番茄",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Watermelon",
         "category": "Fruit",
+        "categoryzh": "水果",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍉",
-        "zh": "西瓜"
+        "zh": "西瓜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Amaranth",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "¼ cup puffed, not flour",
         "notes": "",
         "emoji": "🌾",
-        "zh": "苋菜"
+        "zh": "苋菜籽",
+        "measurementzh": "¼ 杯膨化，非面粉"
     },
     {
+        "url": "",
         "name": "Arrowroot",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "竹芋"
+        "zh": "竹芋",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Bread",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "2 slices",
         "notes": "",
         "emoji": "🌾",
-        "zh": "面包"
+        "zh": "面包",
+        "measurementzh": "2 片"
     },
     {
+        "url": "",
         "name": "Buckwheat",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "荞麦"
+        "zh": "荞麦",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Cacao Powder",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "可可粉"
+        "zh": "可可粉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Carob",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "1 heaped teaspoon",
         "notes": "",
         "emoji": "🌾",
-        "zh": "豆角"
+        "zh": "豆角",
+        "measurementzh": "1 堆茶匙"
     },
     {
+        "url": "",
         "name": "Corn Flour",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
-        "measurement": "",
+        "measurement": "<100g",
         "notes": "",
         "emoji": "🌾",
-        "zh": "玉米粉"
+        "zh": "玉米粉",
+        "measurementzh": "<100g"
     },
     {
+        "url": "",
         "name": "Corn Starch",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "玉米淀粉"
+        "zh": "玉米淀粉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Fruit-Free Cereals",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "无果谷物"
+        "zh": "无果谷物",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "FODMAP Certified Cereals",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "FODMAP认证谷物"
+        "zh": "FODMAP认证谷物",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Guar Gum",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "Grain",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "瓜尔豆胶"
+        "zh": "瓜尔豆胶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Xanthan Gum",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "黄原胶"
+        "zh": "黄原胶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Rolled Oats",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "燕麦片"
+        "zh": "燕麦片",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Fruit-Free Muesli",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "无果麦片"
+        "zh": "无果麦片",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Corn Cous-Cous",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "玉米古斯"
+        "zh": "玉米古斯",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Pasta",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "No soy/legume flours.",
         "emoji": "🌾",
-        "zh": "意大利面"
+        "zh": "意大利面",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Polenta",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "玉米粥"
+        "zh": "玉米粥",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Quinoa",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "藜麦"
+        "zh": "藜麦",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Rice",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "米饭"
+        "zh": "米饭",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Rice Noodles",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "米粉"
+        "zh": "米粉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Konjac",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "魔芋"
+        "zh": "魔芋",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Tapioca Flour",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "木薯粉"
+        "zh": "木薯粉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Teff",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "苔麸"
+        "zh": "苔麸",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "FODMAP Certified Bread",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "2 slices",
         "notes": "",
         "emoji": "🌾",
-        "zh": "FODMAP认证面包"
+        "zh": "FODMAP认证面包",
+        "measurementzh": "2 片"
     },
     {
+        "url": "",
         "name": "Gnocchi",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "80% Potato",
         "notes": "",
         "emoji": "🌾",
-        "zh": "意大利土豆饺"
+        "zh": "意大利土豆饺",
+        "measurementzh": "80% 土豆"
     },
     {
+        "url": "",
         "name": "Sourdough (Wheat/Spelt)",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "2 slices",
         "notes": "",
         "emoji": "🌾",
-        "zh": "酸面包（小麦/斯佩尔特）"
+        "zh": "酸面包（小麦/斯佩尔特）",
+        "measurementzh": "2 片"
     },
     {
+        "url": "",
         "name": "Wheat Bread (Regular)",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "Up to 1 slice",
         "notes": "",
         "emoji": "🌾",
-        "zh": "小麦面包（普通）"
+        "zh": "小麦面包（普通）",
+        "measurementzh": "最多 1 片"
     },
     {
+        "url": "",
         "name": "Wheat Pasta",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": false,
         "measurement": "Up to ½ cup",
         "notes": "",
         "emoji": "🌾",
-        "zh": "小麦意大利面"
+        "zh": "小麦意大利面",
+        "measurementzh": "最多半杯"
     },
     {
+        "url": "",
         "name": "Besan Flour",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "鹰嘴豆粉"
+        "zh": "鹰嘴豆粉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Chickpea Flour",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "鹰嘴豆粉"
+        "zh": "鹰嘴豆粉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Coconut Flour",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "椰子粉"
+        "zh": "椰子粉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Garbanzo Bean Flour",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "鹰嘴豆粉"
+        "zh": "鹰嘴豆粉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Inulin",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "菊粉"
+        "zh": "菊粉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Lupin",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "羽扇豆"
+        "zh": "羽扇豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Lupin Flour",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "羽扇豆粉"
+        "zh": "羽扇豆粉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Soy Flour",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "大豆粉"
+        "zh": "大豆粉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Muesli/Cereal with Honey",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "蜂蜜麦片/谷物"
+        "zh": "蜂蜜麦片/谷物",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Muesli/Cereal with Dried Fruit",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "干果麦片/谷物"
+        "zh": "干果麦片/谷物",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Muesli/Cereal with Fructose",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "果糖麦片/谷物"
+        "zh": "果糖麦片/谷物",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Fruit Juice Concentrate",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "浓缩果汁"
+        "zh": "浓缩果汁",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Pasta (Chickpea Flour)",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "意大利面（鹰嘴豆粉）"
+        "zh": "意大利面（鹰嘴豆粉）",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Pasta (Legume Flour)",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "意大利面（豆类粉）"
+        "zh": "意大利面（豆类粉）",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Pasta (Soy Flour)",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "意大利面（大豆粉）"
+        "zh": "意大利面（大豆粉）",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Cauliflower Rice",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "花椰菜米"
+        "zh": "花椰菜米",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Regular Breads",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "普通面包"
+        "zh": "普通面包",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Regular Biscuits",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "普通饼干"
+        "zh": "普通饼干",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Regular Cakes",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "普通蛋糕"
+        "zh": "普通蛋糕",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Barley",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "大麦"
+        "zh": "大麦",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Cous-Cous",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "库斯库斯"
+        "zh": "库斯库斯",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Rye",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "黑麦"
+        "zh": "黑麦",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Wheat-based Cereals",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "小麦谷物"
+        "zh": "小麦谷物",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Bran-based Cereals",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "麸皮谷物"
+        "zh": "麸皮谷物",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Wheat Pasta",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "小麦意大利面"
+        "zh": "小麦意大利面",
+        "measurementzh": "最多半杯"
     },
     {
+        "url": "",
         "name": "Semolina Pasta",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "粗粉意大利面"
+        "zh": "粗粉意大利面",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Spelt Pasta",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "斯佩尔特意大利面"
+        "zh": "斯佩尔特意大利面",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Egg Noodles",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "鸡蛋面条"
+        "zh": "鸡蛋面条",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Udon Noodles",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "乌冬面"
+        "zh": "乌冬面",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Ramen",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "拉面"
+        "zh": "拉面",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Instant Wheat Noodles",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "速食小麦面条"
+        "zh": "速食小麦面条",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Noodle Soups",
-        "category": "Gluten Free Cereals & Grain",
+        "category": "Grain",
+        "categoryzh": "谷物",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌾",
-        "zh": "汤面"
+        "zh": "汤面",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Cheese (Set/Firm)",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "奶酪（固态/硬）"
+        "zh": "奶酪（固态/硬）",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Greek (Strained) Yoghurt",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "2 to 3 tablespoons",
         "notes": "",
         "emoji": "🥛",
-        "zh": "希腊（浓缩）酸奶"
+        "zh": "希腊（浓缩）酸奶",
+        "measurementzh": "2 到 3 汤匙"
     },
     {
+        "url": "",
         "name": "Lactose-Free Cow's Milk",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "无乳糖牛奶"
+        "zh": "无乳糖牛奶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Lactose-Free Cow's Milk Cream",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "无乳糖牛奶奶油"
+        "zh": "无乳糖牛奶奶油",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Lactose-Free Cow's Milk Ice Cream",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "无乳糖牛奶冰淇淋"
+        "zh": "无乳糖牛奶冰淇淋",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Lactose-Free Cow's Milk Yoghurt",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "无乳糖牛奶酸奶"
+        "zh": "无乳糖牛奶酸奶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Ricotta",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "2 tablespoons",
         "notes": "",
         "emoji": "🥛",
-        "zh": "里科塔"
+        "zh": "里科塔",
+        "measurementzh": "2 汤匙"
     },
     {
+        "url": "",
         "name": "Cream Cheese",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "2 tablespoons",
         "notes": "",
         "emoji": "🥛",
-        "zh": "奶油乳酪"
+        "zh": "奶油乳酪",
+        "measurementzh": "2 汤匙"
     },
     {
+        "url": "",
         "name": "Sour Cream",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "2 tablespoons",
         "notes": "",
         "emoji": "🥛",
-        "zh": "酸奶油"
+        "zh": "酸奶油",
+        "measurementzh": "2 汤匙"
     },
     {
+        "url": "",
         "name": "Cow's Milk",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "牛奶"
+        "zh": "牛奶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Regular Ice Cream",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "普通冰淇淋"
+        "zh": "普通冰淇淋",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Regular Yoghurt",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "普通酸奶"
+        "zh": "普通酸奶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Regular Custard",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "普通蛋奶"
+        "zh": "普通蛋奶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Milk Kefir",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "奶酪"
+        "zh": "奶酪",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Almond Milk",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "杏仁奶"
+        "zh": "杏仁奶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Rice Milk",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "米奶"
+        "zh": "米奶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Quinoa Milk",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "藜麦奶"
+        "zh": "藜麦奶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Hemp Milk",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "大麻奶"
+        "zh": "大麻奶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Coconut Milk (Tinned)",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "½ cup",
         "notes": "",
         "emoji": "🥛",
-        "zh": "椰奶（罐装）"
+        "zh": "椰奶（罐装）",
+        "measurementzh": "½ 杯"
     },
     {
+        "url": "",
         "name": "Coconut Cream",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "½ cup",
         "notes": "",
         "emoji": "🥛",
-        "zh": "椰子奶油"
+        "zh": "椰子奶油",
+        "measurementzh": "½ 杯"
     },
     {
+        "url": "",
         "name": "Pea Protein Milk",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥛",
-        "zh": "豌豆蛋白奶"
+        "zh": "豌豆蛋白奶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Soy Milk",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "",
         "notes": "Must be made from soy protein.",
         "emoji": "🥛",
-        "zh": "豆浆"
+        "zh": "豆浆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Soy Cheese",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": false,
         "measurement": "",
         "notes": "No onion or garlic.",
         "emoji": "🥛",
-        "zh": "豆腐乳"
+        "zh": "豆腐乳",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Oat Milk",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": true,
-        "measurement": "> ½ cup",
+        "measurement": "< ½ cup",
         "notes": "",
         "emoji": "🥛",
-        "zh": "燕麦奶"
+        "zh": "燕麦奶",
+        "measurementzh": "< ½ 杯"
     },
     {
+        "url": "",
         "name": "Soy Milk",
         "category": "Milk Products",
+        "categoryzh": "奶制品",
         "avoid": true,
         "measurement": "",
         "notes": "Must be made from whole soy beans.",
         "emoji": "🥛",
-        "zh": "豆浆"
+        "zh": "豆浆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "White Sugar",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "白糖"
+        "zh": "白糖",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Castor Sugar",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "细砂糖"
+        "zh": "细砂糖",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Icing Sugar",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "糖粉"
+        "zh": "糖粉",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Brown Sugar",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "红糖"
+        "zh": "红糖",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Coconut Sugar",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "椰子糖"
+        "zh": "椰子糖",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Powdered Sugar",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "糖粉"
+        "zh": "糖粉",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Glucose",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "葡萄糖"
+        "zh": "葡萄糖",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Glucose Syrup",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "葡萄糖浆"
+        "zh": "葡萄糖浆",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Dextrose",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "葡萄糖"
+        "zh": "葡萄糖",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Golden Syrup",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "½ tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "金黄色糖浆"
+        "zh": "金黄色糖浆",
+        "measurementzh": "½ 汤匙"
     },
     {
+        "url": "",
         "name": "Invert Sugar",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "转化糖"
+        "zh": "转化糖",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Maple Syrup",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "枫糖浆"
+        "zh": "枫糖浆",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Molasses",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "½ tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "糖蜜"
+        "zh": "糖蜜",
+        "measurementzh": "½ 汤匙"
     },
     {
+        "url": "",
         "name": "Rice Malt Syrup",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "米麦芽糖浆"
+        "zh": "米麦芽糖浆",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Stevia",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🍭",
-        "zh": "甜菊"
+        "zh": "甜菊",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Agave",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍭",
-        "zh": "龙舌兰"
+        "zh": "龙舌兰",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Honeydew",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍭",
-        "zh": "蜜瓜"
+        "zh": "蜜瓜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Isomalt",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍭",
-        "zh": "异麦芽酮"
+        "zh": "异麦芽酮",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Mannitol",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍭",
-        "zh": "甘露醇"
+        "zh": "甘露醇",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Maltitol",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍭",
-        "zh": "麦芽醇"
+        "zh": "麦芽醇",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Sorbitol",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍭",
-        "zh": "山梨醇"
+        "zh": "山梨醇",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Treacle",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍭",
-        "zh": "黑糖浆"
+        "zh": "黑糖浆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Xylitol",
         "category": "Sweeteners",
+        "categoryzh": "甜味剂",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍭",
-        "zh": "木糖醇"
+        "zh": "木糖醇",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Almonds",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
-        "measurement": "1 handful",
+        "measurement": "10 nuts",
         "notes": "",
         "emoji": "🌰",
-        "zh": "杏仁"
+        "zh": "杏仁",
+        "measurementzh": "10 颗坚果"
     },
     {
+        "url": "",
         "name": "Brazil Nuts",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 handful",
         "notes": "",
         "emoji": "🌰",
-        "zh": "巴西坚果"
+        "zh": "巴西坚果",
+        "measurementzh": "一把"
     },
     {
+        "url": "",
         "name": "Hazelnuts",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 handful",
         "notes": "",
         "emoji": "🌰",
-        "zh": "榛子"
+        "zh": "榛子",
+        "measurementzh": "一把"
     },
     {
+        "url": "",
         "name": "Mixed Nuts",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 handful",
         "notes": "",
         "emoji": "🌰",
-        "zh": "混合坚果"
+        "zh": "混合坚果",
+        "measurementzh": "一把"
     },
     {
+        "url": "",
         "name": "Peanuts",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 handful",
         "notes": "",
         "emoji": "🌰",
-        "zh": "花生"
+        "zh": "花生",
+        "measurementzh": "一把"
     },
     {
+        "url": "",
         "name": "Pecans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 handful",
         "notes": "",
         "emoji": "🌰",
-        "zh": "山核桃"
+        "zh": "山核桃",
+        "measurementzh": "一把"
     },
     {
+        "url": "",
         "name": "Pine Nuts",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 handful",
         "notes": "",
         "emoji": "🌰",
-        "zh": "松子"
+        "zh": "松子",
+        "measurementzh": "一把"
     },
     {
+        "url": "",
         "name": "Walnuts",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 handful",
         "notes": "",
         "emoji": "🌰",
-        "zh": "核桃"
+        "zh": "核桃",
+        "measurementzh": "一把"
     },
     {
+        "url": "",
         "name": "Sesame Seeds",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 handful",
         "notes": "",
         "emoji": "🌰",
-        "zh": "芝麻"
+        "zh": "芝麻",
+        "measurementzh": "一把"
     },
     {
+        "url": "",
         "name": "Sunflower Seeds",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 handful",
         "notes": "",
         "emoji": "🌰",
-        "zh": "葵花籽"
+        "zh": "葵花籽",
+        "measurementzh": "一把"
     },
     {
+        "url": "",
         "name": "Linseeds",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 handful",
         "notes": "",
         "emoji": "🌰",
-        "zh": "亚麻籽"
+        "zh": "亚麻籽",
+        "measurementzh": "一把"
     },
     {
+        "url": "",
         "name": "Poppy Seeds",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 handful",
         "notes": "",
         "emoji": "🌰",
-        "zh": "罂粟籽"
+        "zh": "罂粟籽",
+        "measurementzh": "一把"
     },
     {
+        "url": "",
         "name": "Pepitas",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 handful",
         "notes": "",
         "emoji": "🌰",
-        "zh": "南瓜籽"
+        "zh": "南瓜籽",
+        "measurementzh": "一把"
     },
     {
+        "url": "",
         "name": "Canned Butter Beans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "¼ cup",
         "notes": "",
         "emoji": "🌰",
-        "zh": "黄豆罐头"
+        "zh": "黄豆罐头",
+        "measurementzh": "¼ 杯"
     },
     {
+        "url": "",
         "name": "Canned Chick Peas",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "¼ cup",
         "notes": "",
         "emoji": "🌰",
-        "zh": "鹰嘴豆罐头"
+        "zh": "鹰嘴豆罐头",
+        "measurementzh": "¼ 杯"
     },
     {
+        "url": "",
         "name": "Canned Lentils",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "¼ cup",
         "notes": "",
         "emoji": "🌰",
-        "zh": "小扁豆罐头"
+        "zh": "小扁豆罐头",
+        "measurementzh": "¼ 杯"
     },
     {
+        "url": "",
         "name": "Lima Beans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "¼ cup",
         "notes": "",
         "emoji": "🌰",
-        "zh": "利马豆"
+        "zh": "利马豆",
+        "measurementzh": "¼ 杯"
     },
     {
+        "url": "",
         "name": "Chia Seeds",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🌰",
-        "zh": "奇亚籽"
+        "zh": "奇亚籽",
+        "measurementzh": "1 汤匙"
     },
     {
+        "url": "",
         "name": "Quorn",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "¼ cup",
         "notes": "No onion or garlic.",
         "emoji": "🌰",
-        "zh": "素肉"
+        "zh": "素肉",
+        "measurementzh": "¼ 杯"
     },
     {
+        "url": "",
         "name": "Tempeh",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "¼ cup",
         "notes": "No onion or garlic.",
         "emoji": "🌰",
-        "zh": "天贝"
+        "zh": "天贝",
+        "measurementzh": "¼ 杯"
     },
     {
+        "url": "",
         "name": "Tofu (Firm)",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "老豆腐"
+        "zh": "老豆腐",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Cashews",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "腰果"
+        "zh": "腰果",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Pistachio Nuts",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "开心果"
+        "zh": "开心果",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Baked Beans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "焗豆"
+        "zh": "焗豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Black Beans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "黑豆"
+        "zh": "黑豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Borlotti Beans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "花豆"
+        "zh": "花豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Broad Beans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "蚕豆"
+        "zh": "蚕豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Cannellini Beans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "白芸豆"
+        "zh": "白芸豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Fava Beans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "蚕豆"
+        "zh": "蚕豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Four Bean Mix",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "四种豆混合"
+        "zh": "四种豆混合",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Garbanzo Beans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "鹰嘴豆"
+        "zh": "鹰嘴豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Haricot Beans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "白芸豆"
+        "zh": "白芸豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Navy Beans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "海军豆"
+        "zh": "海军豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Soy Beans",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "大豆"
+        "zh": "大豆",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Tofu (Silken)",
         "category": "Nuts, Seeds, & Legumes",
+        "categoryzh": "坚果、种子、豆类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🌰",
-        "zh": "嫩豆腐"
+        "zh": "嫩豆腐",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Eggs",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "鸡蛋"
+        "zh": "鸡蛋",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Chicken (Fresh cuts/Minced/Ground)",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "鸡肉"
+        "zh": "鸡肉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Fish (Fresh cuts/Minced/Ground)",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "鱼肉"
+        "zh": "鱼肉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Tinned Fish",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "罐头鱼"
+        "zh": "罐头鱼",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Plain Grilled Fish",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "原味烤鱼"
+        "zh": "原味烤鱼",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Most Bacon/Ham/Salami",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "大多数培根/火腿/萨拉米"
+        "zh": "大多数培根/火腿/萨拉米",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Meat Products",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": false,
         "measurement": "",
         "notes": "No onion or garlic.",
         "emoji": "🥩",
-        "zh": "肉制品"
+        "zh": "肉制品",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "GF Battered/Bread-Crumbed Products",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": false,
         "measurement": "",
         "notes": "No onion or garlic.",
         "emoji": "🥩",
-        "zh": "无麸质的油炸/面包屑制品"
+        "zh": "无麸质的油炸/面包屑制品",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Firm Tofu",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": false,
         "measurement": "",
         "notes": "Check flavours and spices in the ingredients.",
         "emoji": "🥩",
-        "zh": "老豆腐"
+        "zh": "老豆腐",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Smoked Trout",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "熏鳟鱼"
+        "zh": "熏鳟鱼",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Smoked Salmon",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "熏三文鱼"
+        "zh": "熏三文鱼",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Sausages containing Onion/Garlic Powder",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "含有洋葱/大蒜粉的香肠"
+        "zh": "含有洋葱/大蒜粉的香肠",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Most crumbed or battered meat",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "大多数含面包糠或油炸的肉"
+        "zh": "大多数含面包糠或油炸的肉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Most crumbed or battered chicken",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "大多数含面包糠或油炸的鸡肉"
+        "zh": "大多数含面包糠或油炸的鸡肉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Most crumbed or battered fish",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "大多数含面包糠或油炸的鱼肉"
+        "zh": "大多数含面包糠或油炸的鱼肉",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Most Vegetarian Burgers/Falafel",
         "category": "Meat & Alternatives",
+        "categoryzh": "肉类",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🥩",
-        "zh": "大多数汉堡/法拉费"
+        "zh": "大多数汉堡/法拉费",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Dark Chocolate",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "黑巧克力"
+        "zh": "黑巧克力",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Most Jelly Beans/Lollies",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "大多数果冻豆/棒棒糖"
+        "zh": "大多数果冻豆/棒棒糖",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Fruit-Free Muesli Bars",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "无果麦片棒"
+        "zh": "无果麦片棒",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Jelly",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "果冻"
+        "zh": "果冻",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Pretzels (Regular)",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "½ cup",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "椒盐卷饼"
+        "zh": "椒盐卷饼",
+        "measurementzh": "½ 杯"
     },
     {
+        "url": "",
         "name": "Plain Hot Chips",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "原味热薯条"
+        "zh": "原味热薯条",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Plain Salted Potato Chips",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "原味盐味薯片"
+        "zh": "原味盐味薯片",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Popcorn",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "爆米花"
+        "zh": "爆米花",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Corn Thins",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "玉米薄饼"
+        "zh": "玉米薄饼",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Corn Chips",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "玉米片"
+        "zh": "玉米片",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Rice Cakes",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "米饼"
+        "zh": "米饼",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Crackers",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "饼干"
+        "zh": "饼干",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Cruskits",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "脆饼"
+        "zh": "脆饼",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Sweet & Plain Biscuits/Cookies",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": false,
         "measurement": "2 pieces",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "甜味和原味饼干/曲奇"
+        "zh": "甜味和原味饼干/曲奇",
+        "measurementzh": "2 块"
     },
     {
+        "url": "",
         "name": "Milk Chocolate",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "牛奶巧克力"
+        "zh": "牛奶巧克力",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "White Chocolate",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": true,
-        "measurement": "> 2 squares",
+        "measurement": "< 2 squares",
         "notes": "",
         "emoji": "🍿️",
-        "zh": "白巧克力"
+        "zh": "白巧克力",
+        "measurementzh": "< 2 块方块 "
     },
     {
+        "url": "",
         "name": "Cup-a-Soup",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": true,
         "measurement": "",
         "notes": "No onion or garlic.",
         "emoji": "🍿️",
-        "zh": "速食汤"
+        "zh": "速食汤",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Instant Noodles",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": true,
         "measurement": "",
         "notes": "No onion or garlic.",
         "emoji": "🍿️",
-        "zh": "方便面"
+        "zh": "方便面",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Chips/Crackers",
         "category": "Snack Foods & Confectionery",
+        "categoryzh": "零食",
         "avoid": true,
         "measurement": "",
         "notes": "No onion or garlic.",
         "emoji": "🍿️",
-        "zh": "薯片/饼干"
+        "zh": "薯片/饼干",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Almond Butter",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "1 tablespoon",
         "notes": "",
         "emoji": "🧂",
-        "zh": "杏仁酱"
+        "zh": "杏仁酱",
+        "measurementzh": "1 汤匙 "
     },
     {
+        "url": "",
         "name": "Eggplant Dip",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "No onion or garlic.",
         "emoji": "🧂",
-        "zh": "茄子酱"
+        "zh": "茄子酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Fish Sauce",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "鱼露"
+        "zh": "鱼露",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Herbs & Spices",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "No onion or garlic.",
         "emoji": "🧂",
-        "zh": "香草和香料"
+        "zh": "香草和香料",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Strawberry Jam",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "草莓果酱"
+        "zh": "草莓果酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Raspberry Jam",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "覆盆子果酱"
+        "zh": "覆盆子果酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Marmalade",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "橘子果酱"
+        "zh": "橘子果酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Vegemite",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "澳洲酵母抹酱"
+        "zh": "澳洲酵母抹酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Mayonnaise",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "蛋黄酱"
+        "zh": "蛋黄酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Mint Jelly",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "薄荷果冻"
+        "zh": "薄荷果冻",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Miso Paste",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "味噌酱"
+        "zh": "味噌酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Mustard",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "芥末"
+        "zh": "芥末",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Oyster Sauce",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "蚝油"
+        "zh": "蚝油",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Peanut Butter",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "花生酱"
+        "zh": "花生酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Remoulade",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "法式蛋黄酱"
+        "zh": "法式蛋黄酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Shrimp Paste",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "虾酱"
+        "zh": "虾酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Spirulina",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "螺旋藻"
+        "zh": "螺旋藻",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Soy Sauce",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "酱油"
+        "zh": "酱油",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Sweet and Sour Sauce",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "No garlic.",
         "emoji": "🧂",
-        "zh": "甜酸酱"
+        "zh": "甜酸酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Tomato & BBQ Sauce",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "2 tablespoons",
         "notes": "",
         "emoji": "🧂",
-        "zh": "番茄和烧烤酱"
+        "zh": "番茄和烧烤酱",
+        "measurementzh": "2 汤匙 "
     },
     {
+        "url": "",
         "name": "Worcestershire Sauce",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "伍斯特辣酱油"
+        "zh": "伍斯特辣酱油",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Vanilla Essence",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "香草精"
+        "zh": "香草精",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Vinegar",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "醋"
+        "zh": "醋",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Mirin",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "味淋"
+        "zh": "味淋",
+        "measurementzh": "1 汤匙 (20 g) "
     },
     {
+        "url": "",
         "name": "Gravy Mix",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "肉汁粉"
+        "zh": "肉汁粉",
+        "measurementzh": "1 茶匙 (5 g) "
     },
     {
+        "url": "",
         "name": "Marinades",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "腌料"
+        "zh": "腌料",
+        "measurementzh": "2 汤匙 (40 g) "
     },
     {
+        "url": "",
         "name": "Pasta Sauce",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "意大利面酱"
+        "zh": "意大利面酱",
+        "measurementzh": "1/2 杯 (125 g) "
     },
     {
+        "url": "",
         "name": "Curry Paste",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "咖喱酱"
+        "zh": "咖喱酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Honey",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "蜂蜜"
+        "zh": "蜂蜜",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Mirin",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
-        "measurement": "1 tablespoon (20 grams)",
+        "measurement": "1 tablespoon (20 g)",
         "notes": "Contains excess fructose",
         "emoji": "🧂",
-        "zh": "味淋"
+        "zh": "味淋",
+        "measurementzh": "1 汤匙 (20 g) "
     },
     {
+        "url": "",
         "name": "Gravy Mix",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
-        "measurement": "1 teaspoon (5 grams)",
+        "measurement": "1 teaspoon (5 g)",
         "notes": "May contain wheat, onion, or garlic",
         "emoji": "🧂",
-        "zh": "肉汁粉"
+        "zh": "肉汁粉",
+        "measurementzh": "1 茶匙 (5 g) "
     },
     {
+        "url": "",
         "name": "Marinades",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
-        "measurement": "2 tablespoons (40 grams)",
+        "measurement": "2 tablespoons (40 g)",
         "notes": "May contain honey, onion, garlic, or high fructose corn syrup",
         "emoji": "🧂",
-        "zh": "腌料"
+        "zh": "腌料",
+        "measurementzh": "2 汤匙 (40 g) "
     },
     {
+        "url": "",
         "name": "Pasta Sauce",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
-        "measurement": "1/2 cup (125 grams)",
+        "measurement": "1/2 cup (125 g)",
         "notes": "May contain onion, garlic, or excess fructose from tomatoes",
         "emoji": "🧂",
-        "zh": "意大利面酱"
+        "zh": "意大利面酱",
+        "measurementzh": "1/2 杯 (125 g) "
     },
     {
+        "url": "",
         "name": "Hummus",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
-        "measurement": "> 1 tablespoon",
+        "measurement": "< 1 tablespoon",
         "notes": "",
         "emoji": "🧂",
-        "zh": "鹰嘴豆泥"
+        "zh": "鹰嘴豆泥",
+        "measurementzh": "< 1 汤匙 "
     },
     {
+        "url": "",
         "name": "Seasoning Mixes",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "调味料混合物"
+        "zh": "调味料混合物",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Relish and Chutney",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🧂",
-        "zh": "调味品和印度果酱"
+        "zh": "调味品和印度果酱",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Tahini",
         "category": "Condiments",
+        "categoryzh": "调味品",
         "avoid": true,
-        "measurement": "> 1 tablespoon",
+        "measurement": "< 1 tablespoon",
         "notes": "",
         "emoji": "🧂",
-        "zh": "芝麻酱"
+        "zh": "芝麻酱",
+        "measurementzh": "< 1 汤匙 "
     },
     {
+        "url": "",
         "name": "Cranberry Juice",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "1 cup",
         "notes": "",
         "emoji": "🍷",
-        "zh": "蔓越莓汁"
+        "zh": "蔓越莓汁",
+        "measurementzh": "1 杯 "
     },
     {
+        "url": "",
         "name": "Tomato Juice",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "1 cup",
         "notes": "",
         "emoji": "🍷",
-        "zh": "番茄汁"
+        "zh": "番茄汁",
+        "measurementzh": " 1 杯 "
     },
     {
+        "url": "",
         "name": "Lime Juice",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "1 cup",
         "notes": "",
         "emoji": "🍷",
-        "zh": "青柠汁"
+        "zh": "青柠汁",
+        "measurementzh": " 1 杯 "
     },
     {
+        "url": "",
         "name": "Lemon Juice",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "1 cup",
         "notes": "",
         "emoji": "🍷",
-        "zh": "柠檬汁"
+        "zh": "柠檬汁",
+        "measurementzh": " 1 杯 "
     },
     {
+        "url": "",
         "name": "Spirulina Juice",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "1 cup",
         "notes": "",
         "emoji": "🍷",
-        "zh": "螺旋藻汁"
+        "zh": "螺旋藻汁",
+        "measurementzh": " 1 杯 "
     },
     {
+        "url": "",
         "name": "Orange Juice (Fresh)",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "½ cup",
         "notes": "",
         "emoji": "🍷",
-        "zh": "鲜橙汁"
+        "zh": "鲜橙汁",
+        "measurementzh": " ½ 杯 "
     },
     {
+        "url": "",
         "name": "Coffee",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "咖啡"
+        "zh": "咖啡",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Black Tea",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "红茶"
+        "zh": "红茶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Dandelion Tea (Weak)",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "蒲公英茶（淡）"
+        "zh": "蒲公英茶（淡）",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Peppermint Tea",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "薄荷茶"
+        "zh": "薄荷茶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Green Tea",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "绿茶"
+        "zh": "绿茶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Rooibos Tea",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "红茶"
+        "zh": "红茶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Beer",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "啤酒"
+        "zh": "啤酒",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Whiskey",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "威士忌"
+        "zh": "威士忌",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Gin",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "杜松子酒"
+        "zh": "杜松子酒",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Vodka",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "伏特加"
+        "zh": "伏特加",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Champagne",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "香槟"
+        "zh": "香槟",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Red Wine",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "红酒"
+        "zh": "红酒",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "White Wine",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": false,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "白酒"
+        "zh": "白酒",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Coconut Water",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
-        "measurement": "> ½ cup",
+        "measurement": "< ½ cup",
         "notes": "",
         "emoji": "🍷",
-        "zh": "椰子水"
+        "zh": "椰子水",
+        "measurementzh": "< ½ 杯 "
     },
     {
+        "url": "",
         "name": "Apple Juice",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "苹果汁"
+        "zh": "苹果汁",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Mango Juice",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "芒果汁"
+        "zh": "芒果汁",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Pear Juice",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "梨汁"
+        "zh": "梨汁",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Kombucha",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
-        "measurement": "> ½ cup",
+        "measurement": "< ½ cup",
         "notes": "",
         "emoji": "🍷",
-        "zh": "康普茶"
+        "zh": "康普茶",
+        "measurementzh": "< ½ 杯"
     },
     {
+        "url": "",
         "name": "Milk Drinks",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "奶制饮料"
+        "zh": "奶制饮料",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Pomegranate Juice",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "石榴汁"
+        "zh": "石榴汁",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Chamomile Tea",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "洋甘菊茶"
+        "zh": "洋甘菊茶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Dandelion Tea (Strong)",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "蒲公英茶（浓）"
+        "zh": "蒲公英茶（浓）",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Fennel Tea",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "茴香茶"
+        "zh": "茴香茶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Oolong Tea",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "乌龙茶"
+        "zh": "乌龙茶",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Chai Tea (Powders)",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "印度奶茶（粉末）"
+        "zh": "印度奶茶（粉末）",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Rum",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "朗姆酒"
+        "zh": "朗姆酒",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Dessert Wine",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "甜酒"
+        "zh": "甜酒",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Apple Cider",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "苹果酒"
+        "zh": "苹果酒",
+        "measurementzh": ""
     },
     {
+        "url": "",
         "name": "Pear Cider",
         "category": "Drinks",
+        "categoryzh": "饮料",
         "avoid": true,
         "measurement": "",
         "notes": "",
         "emoji": "🍷",
-        "zh": "梨酒"
+        "zh": "梨酒",
+        "measurementzh": ""
     }
 ]
